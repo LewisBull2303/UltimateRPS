@@ -17,9 +17,13 @@ Existing features
 
  . Chart
 	Below the buttons is a handy chart to see what options beat what when playing
+ ![image](https://github.com/LewisBull2303/UltimateRPS/assets/129514763/0e819088-e11b-41f3-b623-0dcaac56256f)
+
 
  .The Score Area
 	Just below the buttons there is a scoring area which allows the user to see how many time they have won vs how many times the computer has won
+ ![image](https://github.com/LewisBull2303/UltimateRPS/assets/129514763/eceec40c-58ec-413e-8545-3595bbc25978)
+
 
 
 Features to impliment

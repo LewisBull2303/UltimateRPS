@@ -12,6 +12,8 @@ Existing features
 
  .  Buttons to play
 	In the game area there is 15 different buttonw which coorospond to differnt symbol and options to play
+ ![image](https://github.com/LewisBull2303/UltimateRPS/assets/129514763/d714ee14-b77f-49ea-baeb-299068a9aadb)
+
 
  . Chart
 	Below the buttons is a handy chart to see what options beat what when playing

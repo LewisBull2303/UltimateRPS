@@ -5,19 +5,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://th.bing.com/th/id/OIP.W9sekoM4f-OyPwaWE8l1GwHaHa?rs=1&pid=ImgDetMain");
 }
 
 h1{
     font-size: 3rem;
     color: gold;
     text-align: center;
-}
-
-.guide-image{
-    border-radius: 50%;
-    border: 1px solid black;
-    width: 450px;
 }
 
 .options{

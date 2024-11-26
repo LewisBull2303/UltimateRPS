@@ -29,37 +29,37 @@
                 <button class="btn" id="submit">Submit</button>
             </form>
         </div>
-        <div class="options">
-            <button class = "btn hide-element" onclick="playGame('Rock✊')">Rock✊</button>
-            <button class = "btn hide-element" onclick="playGame('Paper✋')">Paper✋</button>
-            <button class = "btn hide-element" onclick="playGame('Scissors✌')">Scissors✌</button>
-            <button class = "btn hide-element" onclick="playGame('Gun🔫')">Gun🔫</button>
-            <button class = "btn hide-element" onclick="playGame('Lightning⚡')">Lightning⚡</button>
-            <button class = "btn hide-element" onclick="playGame('Devil😈')">Devil😈</button>
-            <button class = "btn hide-element" onclick="playGame('Dragon🐉')">Dragon🐉</button>
-            <button class = "btn hide-element" onclick="playGame('Water🌊')">Water🌊</button>
-            <button class = "btn hide-element" onclick="playGame('Air💨')">Air💨</button>
-            <button class = "btn hide-element" onclick="playGame('Sponge🧽')">Sponge🧽</button>
-            <button class = "btn hide-element" onclick="playGame('Wolf🐺')">Wolf🐺</button>
-            <button class = "btn hide-element" onclick="playGame('Tree🌲')">Tree🌲</button>
-            <button class = "btn hide-element" onclick="playGame('Human🧍')">Human🧍</button>
-            <button class = "btn hide-element" onclick="playGame('Snake🐍')">Snake🐍</button>
-            <button class = "btn hide-element" onclick="playGame('Fire🔥')">Fire🔥</button>
+        <div class="options" id="game-buttons">
+            <button class = "btn hide-element start-game-element" onclick="playGame('Rock✊')">Rock✊</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Paper✋')">Paper✋</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Scissors✌')">Scissors✌</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Gun🔫')">Gun🔫</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Lightning⚡')">Lightning⚡</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Devil😈')">Devil😈</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Dragon🐉')">Dragon🐉</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Water🌊')">Water🌊</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Air💨')">Air💨</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Sponge🧽')">Sponge🧽</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Wolf🐺')">Wolf🐺</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Tree🌲')">Tree🌲</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Human🧍')">Human🧍</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Snake🐍')">Snake🐍</button>
+            <button class = "btn hide-element start-game-element" onclick="playGame('Fire🔥')">Fire🔥</button>
         </div>
 
-    <div class="container play-again-container hide-element">
-        <button class="btn" id="play-again">Play Again?</button>
-    </div>
+    <h1 class="hide-element start-game-element" id="player-display">Player: </h1>
+    <h1 class="hide-element start-game-element"id="computer-display">Computer: </h1>
+    <h1 class="hide-element start-game-element" id="result-display"></h1>
 
-    <h1 class="hide-element" id="player-display">Player: </h1>
-    <h1 class="hide-element"id="computer-display">Computer: </h1>
-    <h1 class="hide-element" id="result-display"></h1>
-
-    <div class="scoreDisplay hide-element">Player Score: 
+    <div class="scoreDisplay hide-element start-game-element">Player Score: 
         <h1 id="playerScoreDisplay">0</h1>
     </div>
-    <div class="scoreDisplay hide-element">Computer Score: 
+    <div class="scoreDisplay hide-element start-game-element">Computer Score: 
         <h1 id="computerScoreDisplay">0</h1>
+    </div>
+
+    <div class="container play-again-container hide-element start-game-element">
+        <button class="btn" id="play-again">Play Again?</button>
     </div>
 </div>
 

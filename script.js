@@ -6,16 +6,23 @@ const resultDisplay = document.getElementById("result-display");
 const playerScoreDisplay = document.getElementById("playerScoreDisplay")
 const computerScoreDisplay = document.getElementById("computerScoreDisplay")
 const roundsOutput = document.getElementById("rounds-output");
+const gameButtonsContainer = document.getElementById("game-buttons")
 
 const selectElement = document.getElementById('rounds')
 const submitDropDown = document.getElementById("submit")
+const roundsSelect = document.getElementById("rounds-select")
+
+const replayButton = document.getElementById("play-again")
+
+let remainingRounds = 0;
 
 var text = rounds.options[rounds.selectedIndex].text;
 let playerScore = 0
 let computerScore = 0
 
 submitDropDown.addEventListener('click', () => {
-    const selectedValue = selectElement.value;
+    const selectedValue = parseInt(selectElement.value);
+    remainingRounds = selectedValue;
     console.log(selectedValue)
     roundsOutput.textContent = `${selectedValue} Rounds Left`
 
@@ -23,13 +30,24 @@ submitDropDown.addEventListener('click', () => {
     while(disableHide.length){
         disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g)
     }
+    roundsSelect.classList.add("hide-element")
+    replayButton.classList.add("hide-element")
+    
 })
 
 
 function playGame(playerChoice){
-
     const computerChoice = choices[Math.floor(Math.random() * 15)];
     let result = "";
+
+    if(remainingRounds > 0){
+        remainingRounds--;
+        roundsOutput.textContent = `${remainingRounds} Rounds Left`
+    }
+    else if(remainingRounds <= 1){
+        roundsOutput.textContent = "Game Over, Play Again?"
+        return;
+    }
 
     if( playerChoice === computerChoice){
         result = "Its a Tie!";

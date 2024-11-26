@@ -5,8 +5,26 @@ const computerDisplay = document.getElementById("computer-display");
 const resultDisplay = document.getElementById("result-display");
 const playerScoreDisplay = document.getElementById("playerScoreDisplay")
 const computerScoreDisplay = document.getElementById("computerScoreDisplay")
+const roundsOutput = document.getElementById("rounds-output");
+
+const selectElement = document.getElementById('rounds')
+const submitDropDown = document.getElementById("submit")
+
+var text = rounds.options[rounds.selectedIndex].text;
 let playerScore = 0
 let computerScore = 0
+
+submitDropDown.addEventListener('click', () => {
+    const selectedValue = selectElement.value;
+    console.log(selectedValue)
+    roundsOutput.textContent = `${selectedValue} Rounds Left`
+
+    const disableHide = document.getElementsByClassName("hide-element")
+    while(disableHide.length){
+        disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g)
+    }
+})
+
 
 function playGame(playerChoice){
 

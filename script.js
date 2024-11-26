@@ -8,6 +8,8 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay")
 const roundsOutput = document.getElementById("rounds-output");
 const gameButtonsContainer = document.getElementById("game-buttons")
 
+const startGameElements = document.getElementsByClassName("start-game-element")
+
 const selectElement = document.getElementById('rounds')
 const submitDropDown = document.getElementById("submit")
 const roundsSelect = document.getElementById("rounds-select")
@@ -150,5 +152,11 @@ function playGame(playerChoice){
             resultDisplay.classList.remove("red-Text");
             resultDisplay.classList.add("gold-Text");
     }
+
+    replayButton.addEventListener("click", () => {
+        while(disableHide.length){
+            disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g)
+        }
+    })
 
 }

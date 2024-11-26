@@ -91,12 +91,26 @@ strong{
     color: #fff;
 }
 
-.hide-elements{
+.hide-element{
+    display: none;
+}
+
+.hide-element2{
     display: none;
 }
 
 
 h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+    font-size: 36px;
+    color: var(--color-rose);
+}
+
+p{
     display: flex;
     align-items: center;
     text-align: center;
@@ -112,10 +126,6 @@ label{
     font-size: 20px;
     font-weight: 600;
     color: var(--color-white);
-}
-
-#rounds {
-
 }
 
 img,
@@ -168,6 +178,10 @@ svg{
 .container .btn{
     margin-top: 1.5rem;
 }
+
+.play-again-container{
+    padding: 0;
+}
 /* XXXS */
 @media (min-width: 200px) {
     img{
@@ -202,6 +216,12 @@ svg{
     }
     .play-again-container{
         padding: 0;
+    }
+    .hide-element{
+        display: none;
+    }
+    .hide-element2{
+        display: none;
     }
 }
 
@@ -260,4 +280,11 @@ p{
     svg{
         height: 500px;
 }
+.hide-element{
+    display: none;
+}
+.hide-element2{
+    display: none;
+}
+
 }

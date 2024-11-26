@@ -22,7 +22,6 @@
 
 #result-display{
     font-size: 5rem;
-    margin: 30px 0;
 }
 
 .scoreDisplay{
@@ -36,10 +35,6 @@
 
 .red-Text, #computerScoreDisplay{
     color: var(--color-rose);
-}
-
-.yellow-Text{
-    color: yellow;
 }
 
 *{
@@ -68,15 +63,6 @@ button{
     color: inherit;
 }
 
-p{
-    font-size: small;
-    text-align: center;
-    margin-bottom: 2rem;
-    text-overflow: ellipsis;
-    width: 100%;
-    width: 75%;
-}
-
 a{
     color: var(--color-rose);
 }
@@ -91,7 +77,6 @@ h1{
     text-align: center;
     height: auto;
     width: auto;
-    margin-bottom: 1.5rem;
     font-size: 36px;
     color: var(--color-rose);
 }
@@ -143,6 +128,8 @@ svg{
     padding-right: 0.5rem;
 }
 
+
+
 .container .btn{
     margin-top: 1.5rem;
 }
@@ -162,6 +149,16 @@ svg{
     p{
         justify-content: center;
     }
+    #player-display{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    #computer-display{
+        font-size: 20px
+    }
+    #result-display{
+        font-size: 20px
+    }
 }
 
 /* XXS */
@@ -174,11 +171,14 @@ svg{
         height: 200px
     }
     h1{
-        font-size: 50px;
+        font-size: 25px;
         justify-content: center;
     }
     p{
         justify-content: center;
+    }
+    .container{
+        text-align: center;
     }
 }
 
@@ -196,7 +196,6 @@ svg{
     }
     
 h1{
-    margin-bottom: 1.5rem;
     font-size: 60px;
 }
 }

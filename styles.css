@@ -1,47 +1,23 @@
-body{
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1{
-    font-size: 3rem;
-    color: gold;
-    text-align: center;
-}
-
-.options{
-    margin-bottom: 45px;
-    align-items: center;
-    text-align: center;
-}
-
-.options button{
-    font-size: 2.3rem;
-    min-width: 160px;
-    margin: 0 10px;
-    border-radius: 250px;
-    background-color: hsl(300, 47%, 75%);
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    align-items: center;
-}
-
-.options button:hover{
-    background-color: hsl(300, 47%, 90%);
+:root{
+    --color-dark: #070a13;
+    --color-light: #f1f5f9;
+    --color-slate400: #94a3b8;
+    --color-slate600: #475569;
+    --color-slate800: #1e293b;
+    --color-rose: #e11d48;
+    --color-indigo: #4f46e5; 
+    --color-gold: #Ffd700;
+    --color-dark-green: #006400;
 }
 
 #player-display{
     font-size: 2.5rem;
-    color: gold;
+    color: var(--color-gold);
 }
 
 #computer-display{
     font-size: 2.5rem;
-    color: gold;
+    color: var(--color-gold);
 }
 
 #result-display{
@@ -51,18 +27,194 @@ h1{
 
 .scoreDisplay{
     font-size: 1.5rem;
-    color: gold;
+    color: var(--color-gold);
 }
 
 .green-Text, #playerScoreDisplay{
-    color: green;
+    color: var(--color-dark-green);
 }
 
 .red-Text, #computerScoreDisplay{
-    color: red;
+    color: var(--color-rose);
 }
 
 .yellow-Text{
     color: yellow;
 }
 
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Satoshi', sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    overflow: hidden;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+p{
+    font-size: small;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-overflow: ellipsis;
+    width: 100%;
+    width: 75%;
+}
+
+a{
+    color: var(--color-rose);
+}
+
+strong{
+    color: #fff;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 1.5rem;
+    font-size: 36px;
+    color: var(--color-rose);
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 300px;
+    user-select: none;
+    height: 250px;
+    border: 1px solid var(--color-rose);
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--color-rose);;
+}
+
+
+.btn{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--color-rose);
+    color: var(--color-light);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--color-rose);
+
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--color-rose);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.container .btn{
+    margin-top: 1.5rem;
+}
+/* XXXS */
+@media (min-width: 200px) {
+    img{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        max-width: 150px;
+        height: 150px
+    }
+    h1{
+        font-size: 50px;
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+}
+
+/* XXS */
+@media (min-width: 300px) {
+    img{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        max-width: 100%;
+        height: 200px
+    }
+    h1{
+        font-size: 50px;
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+}
+
+/* XS */
+/* @media (min-width: 475px) {}  */
+
+/* S */
+@media (min-width: 640px) {
+img,
+picture,
+video,
+canvas,
+svg{
+    height: 375px;
+    }
+    
+h1{
+    margin-bottom: 1.5rem;
+    font-size: 60px;
+}
+}
+
+/* M */
+@media (min-width: 768px) {
+p{
+    font-size: larger;
+}
+}
+
+/* L */
+@media (min-width: 1024px) {
+    img,
+    picture,
+    video,
+    canvas,
+    svg{
+        height: 500px;
+}
+}

@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <h1>Ultimate Rock Paper Scissors!!!!</h1>
-
-        <div class="container">
+        <p id="rounds-output"></p>
+        <div class="container" id="rounds-select">
             <form action="#">
                 <label for="rounds">Please select the number of rounds you would like to play: </label>
                 <div class="custom-select">
@@ -26,43 +26,43 @@
                         <option value="8">8 Rounds</option>
                 </select>
             </div>
-                <input type="submit" value="submit">
+                <button class="btn" id="submit">Submit</button>
             </form>
         </div>
         <div class="options">
-            <button class = "btn" onclick="playGame('Rock✊')">Rock✊</button>
-            <button class = "btn" onclick="playGame('Paper✋')">Paper✋</button>
-            <button class = "btn" onclick="playGame('Scissors✌')">Scissors✌</button>
-            <button class = "btn" onclick="playGame('Gun🔫')">Gun🔫</button>
-            <button class = "btn" onclick="playGame('Lightning⚡')">Lightning⚡</button>
-            <button class = "btn" onclick="playGame('Devil😈')">Devil😈</button>
-            <button class = "btn" onclick="playGame('Dragon🐉')">Dragon🐉</button>
-            <button class = "btn" onclick="playGame('Water🌊')">Water🌊</button>
-            <button class = "btn" onclick="playGame('Air💨')">Air💨</button>
-            <button class = "btn" onclick="playGame('Sponge🧽')">Sponge🧽</button>
-            <button class = "btn" onclick="playGame('Wolf🐺')">Wolf🐺</button>
-            <button class = "btn" onclick="playGame('Tree🌲')">Tree🌲</button>
-            <button class = "btn" onclick="playGame('Human🧍')">Human🧍</button>
-            <button class = "btn" onclick="playGame('Snake🐍')">Snake🐍</button>
-            <button class = "btn" onclick="playGame('Fire🔥')">Fire🔥</button>
+            <button class = "btn hide-element" onclick="playGame('Rock✊')">Rock✊</button>
+            <button class = "btn hide-element" onclick="playGame('Paper✋')">Paper✋</button>
+            <button class = "btn hide-element" onclick="playGame('Scissors✌')">Scissors✌</button>
+            <button class = "btn hide-element" onclick="playGame('Gun🔫')">Gun🔫</button>
+            <button class = "btn hide-element" onclick="playGame('Lightning⚡')">Lightning⚡</button>
+            <button class = "btn hide-element" onclick="playGame('Devil😈')">Devil😈</button>
+            <button class = "btn hide-element" onclick="playGame('Dragon🐉')">Dragon🐉</button>
+            <button class = "btn hide-element" onclick="playGame('Water🌊')">Water🌊</button>
+            <button class = "btn hide-element" onclick="playGame('Air💨')">Air💨</button>
+            <button class = "btn hide-element" onclick="playGame('Sponge🧽')">Sponge🧽</button>
+            <button class = "btn hide-element" onclick="playGame('Wolf🐺')">Wolf🐺</button>
+            <button class = "btn hide-element" onclick="playGame('Tree🌲')">Tree🌲</button>
+            <button class = "btn hide-element" onclick="playGame('Human🧍')">Human🧍</button>
+            <button class = "btn hide-element" onclick="playGame('Snake🐍')">Snake🐍</button>
+            <button class = "btn hide-element" onclick="playGame('Fire🔥')">Fire🔥</button>
         </div>
 
-    <div class="container play-again-container">
+    <div class="container play-again-container hide-element">
         <button class="btn" id="play-again">Play Again?</button>
     </div>
 
-    <h1 id="player-display">Player: </h1>
-    <h1 id="computer-display">Computer: </h1>
-    <h1 id="result-display"></h1>
+    <h1 class="hide-element" id="player-display">Player: </h1>
+    <h1 class="hide-element"id="computer-display">Computer: </h1>
+    <h1 class="hide-element" id="result-display"></h1>
 
-    <div class="scoreDisplay">Player Score: 
+    <div class="scoreDisplay hide-element">Player Score: 
         <h1 id="playerScoreDisplay">0</h1>
     </div>
-    <div class="scoreDisplay">Computer Score: 
+    <div class="scoreDisplay hide-element">Computer Score: 
         <h1 id="computerScoreDisplay">0</h1>
     </div>
 </div>
 
-    <script src="script.js" defer></script>
+<script src="script.js" defer></script>
 </body>
 </html>

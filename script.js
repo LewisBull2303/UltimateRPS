@@ -38,16 +38,8 @@ submitDropDown.addEventListener('click', () => {
 
 function playGame(playerChoice){
     const computerChoice = choices[Math.floor(Math.random() * 15)];
+    remainingRounds--;
     let result = "";
-
-    if(remainingRounds > 0){
-        remainingRounds--;
-        roundsOutput.textContent = `${remainingRounds} Rounds Left`
-    }
-    else if(remainingRounds <= 1){
-        roundsOutput.textContent = "Game Over, Play Again?"
-        return;
-    }
 
     if( playerChoice === computerChoice){
         result = "Its a Tie!";
@@ -100,6 +92,37 @@ function playGame(playerChoice){
                 result = (computerChoice === "Rock✊") || (computerChoice === "Wolf🐺") || (computerChoice === "Tree🌲") || (computerChoice === "Human🧍") || (computerChoice === "Snake🐍")|| (computerChoice === "Scissors✌") || (computerChoice === "Fire🔥") ? "You Win!" : "You Lose!";
                 break;
         }
+
+        if(remainingRounds > 0){
+            console.log(remainingRounds)
+            roundsOutput.textContent = `${remainingRounds} Rounds Left`
+        }
+        else if(remainingRounds <= 1){
+            roundsOutput.textContent = "Game Over, Play Again?"
+            const children = gameButtonsContainer.children;
+            if(playerScore > computerScore){
+                result = `Congrats You Win! You Scored ${playerScore} points!`
+                resultDisplay.classList.add("green-Text");
+                resultDisplay.classList.remove("red-Text");
+                resultDisplay.classList.remove("gold-Text");
+            }
+            else if(computerScore > playerScore){
+                result = `Oh No, You Lose! You Scored ${playerScore} but the computer Scored ${computerScore}`
+                resultDisplay.classList.add("red-Text");
+                resultDisplay.classList.remove("green-Text");
+                resultDisplay.classList.remove("gold-Text");
+            }
+            playerDisplay.classList.add("hide-element");
+
+            computerDisplay.classList.add("hide-element");
+
+            replayButton.classList.remove("hide-element")
+
+            for(let child of children){
+                child.classList.add("hide-element")
+            }
+
+        }
         
     }
 
@@ -107,20 +130,25 @@ function playGame(playerChoice){
     computerDisplay.textContent = `COMPUTER ${computerChoice}`;
     resultDisplay.textContent = result;
 
-    resultDisplay.classList.remove("green-Text", "red-Text");
-
-
     switch(result){
         case "You Win!":
             resultDisplay.classList.add("green-Text");
+            resultDisplay.classList.remove("red-Text");
+            resultDisplay.classList.remove("gold-Text");
             playerScore++;
-            playerScoreDisplay.textContent = playerScore
+            playerScoreDisplay.textContent = playerScore;
             break;
         case "You Lose!":
-            resultDisplay.classList.add("red-Text");
+            resultDisplay.classList.add("red-Text");;
+            resultDisplay.classList.remove("green-Text");
+            resultDisplay.classList.remove("gold-Text");
             computerScore++;
-            computerScoreDisplay.textContent = computerScore
+            computerScoreDisplay.textContent = computerScore;
             break;
+        case "Its a Tie!":
+            resultDisplay.classList.remove("green-Text");
+            resultDisplay.classList.remove("red-Text");
+            resultDisplay.classList.add("gold-Text");
     }
 
 }

@@ -6,6 +6,9 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 
 ![image](https://github.com/user-attachments/assets/39d47386-772c-4d6b-a8ce-cd6b6d2ee863)
 
+![image](https://github.com/user-attachments/assets/5e4d1155-be64-48c9-ba63-7eb69960b119)
+
+
 
 ## Features
 

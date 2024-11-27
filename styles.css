@@ -80,7 +80,6 @@ a{
     appearance: none;
     width: 75%;
     font-size: 12px;
-    padding: 0.675em, 6em, 0.675em, 1em;
     background-color: #fff;
     border: 1px solid var(--color-rose);
     border-radius: 0.25rem;

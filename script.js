@@ -27,7 +27,7 @@ let computerScore = 0 // Computer score tracker
 
 // Event listener for submitting the number of rounds
 submitDropDown.addEventListener('click', () => {
-    const selectedValue = parseInt(selectElement.value) + 1;
+    const selectedValue = parseInt(selectElement.value);
     remainingRounds = selectedValue;
     console.log(selectedValue)
     roundsOutput.textContent = `${selectedValue} Rounds Left`
@@ -45,11 +45,47 @@ submitDropDown.addEventListener('click', () => {
 function playGame(playerChoice){
     const computerChoice = choices[Math.floor(Math.random() * 15)]; // Random computer choice
     let result = "";
+    remainingRounds--; // Decrease remaing rounds
 
     if( playerChoice === computerChoice){
         result = "Its a Tie!";
         //Update remaing rounds display
-        roundsOutput.textContent = `${remainingRounds} Rounds Left`;
+        if(remainingRounds > 0){
+            console.log(remainingRounds)
+            roundsOutput.textContent = `${remainingRounds} Rounds Left`
+        }
+        //If no rounds remain the game will end and hide elements
+        else if(remainingRounds == 0){
+            roundsOutput.textContent = "Game Over, Play Again?"
+            const children = gameButtonsContainer.children;
+            //Checks who won the game
+            if(playerScore > computerScore){
+                result = `Congrats You Win! You Scored ${playerScore} points!`
+                resultDisplay.classList.add("green-Text");
+                resultDisplay.classList.remove("red-Text");
+                resultDisplay.classList.remove("gold-Text");
+            }
+            else if(computerScore > playerScore){
+                result = `Oh No, You Lose! You Scored ${playerScore} but the computer Scored ${computerScore}`
+                resultDisplay.classList.add("red-Text");
+                resultDisplay.classList.remove("green-Text");
+                resultDisplay.classList.remove("gold-Text");
+            }
+            else if (playerChoice === computerChoice) {
+                roundsOutput.textContent = `${remainingRounds} Rounds Left`;
+            }
+            playerDisplay.classList.add("hide-element");
+
+            computerDisplay.classList.add("hide-element");
+
+            replayButton.classList.remove("hide-element")
+
+            for(let child of children){
+                child.classList.add("hide-element")
+            }
+
+        }
+
     }
     else{
         // Large Case and Switch Statement for all of the player options
@@ -100,7 +136,6 @@ function playGame(playerChoice){
                 result = (computerChoice === "Rock✊") || (computerChoice === "Wolf🐺") || (computerChoice === "Tree🌲") || (computerChoice === "Human🧍") || (computerChoice === "Snake🐍")|| (computerChoice === "Scissors✌") || (computerChoice === "Fire🔥") ? "You Win!" : "You Lose!";
                 break;
         }
-        remainingRounds--; // Decrease remaing rounds
         //Checks if there are rounds remaining
         if(remainingRounds > 0){
             console.log(remainingRounds)

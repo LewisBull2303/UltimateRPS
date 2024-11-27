@@ -68,8 +68,8 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 ## Validator Testing
 
 - Html
--   No errors were returned when passing through the official W3C Validator
-![image](https://github.com/user-attachments/assets/72a646cb-0d4d-4691-b28b-0812ac7f53cb)
+-   No errors returned when passing through the W3C validator. One Warning returned however this is for a header which is updated and Javascript so the header needs to remain blank for the code to run correctly
+![image](https://github.com/user-attachments/assets/18bbb38d-b83c-4852-b709-e8e8f49c0be5)
 
 - CSS
 -   No errors were returned when passing throuhg the official Jigsaw CSS Validator

@@ -44,7 +44,6 @@ submitDropDown.addEventListener('click', () => {
 // Main Game Function
 function playGame(playerChoice){
     const computerChoice = choices[Math.floor(Math.random() * 15)]; // Random computer choice
-    remainingRounds--; // Decrease reaming rounds
     let result = "";
 
     if( playerChoice === computerChoice){
@@ -101,6 +100,7 @@ function playGame(playerChoice){
                 result = (computerChoice === "Rock✊") || (computerChoice === "Wolf🐺") || (computerChoice === "Tree🌲") || (computerChoice === "Human🧍") || (computerChoice === "Snake🐍")|| (computerChoice === "Scissors✌") || (computerChoice === "Fire🔥") ? "You Win!" : "You Lose!";
                 break;
         }
+        remainingRounds--; // Decrease remaing rounds
         //Checks if there are rounds remaining
         if(remainingRounds > 0){
             console.log(remainingRounds)

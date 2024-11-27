@@ -26,7 +26,8 @@ let playerScore = 0 // Player score tracker
 let computerScore = 0 // Computer score tracker
 
 // Event listener for submitting the number of rounds
-submitDropDown.addEventListener('click', () => {
+submitDropDown.addEventListener('click', (event) => {
+    event.preventDefault;
     const selectedValue = parseInt(selectElement.value);
     remainingRounds = selectedValue;
     console.log(selectedValue)

@@ -73,11 +73,11 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 
 - CSS
 -   No errors were returned when passing throuhg the official Jigsaw CSS Validator
-![image](https://github.com/user-attachments/assets/14a6433f-094b-4030-9b28-562658acfabe)
+![image](https://github.com/user-attachments/assets/d2ac0583-787a-4575-8652-a93c73053c31)
 
 - Accessibility
 -   I confirmed that the colors and fonts chose are easy to read and accessible by running it through lighthouse in devtools
-![image](https://github.com/user-attachments/assets/64ec904d-5189-4f84-9fd6-3786fd2f4215)
+![image](https://github.com/user-attachments/assets/7948c453-0c23-49ca-b2cf-9d82f2495ca9)
 
 ## Deployment
 - This site was deployed to Github pages. The steps to deploy are as follows:
@@ -85,7 +85,7 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 -   From the source drop down menu, select the option that says main
 -   Once selected the pages link will generate allowing you to view your page.
 
-The Live link to this repository can be found here - https://lewisbull2303.github.io/Portfolio/#
+The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
 
 
 

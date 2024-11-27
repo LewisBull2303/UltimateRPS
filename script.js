@@ -51,12 +51,12 @@ function playGame(playerChoice){
     if( playerChoice === computerChoice){
         result = "Its a Tie!";
         //Update remaing rounds display
-        if(remainingRounds > 0){
+        if(remainingRounds >= 0){
             console.log(remainingRounds)
             roundsOutput.textContent = `${remainingRounds} Rounds Left`
         }
         //If no rounds remain the game will end and hide elements
-        else if(remainingRounds == 0){
+        else if(remainingRounds === 0){
             roundsOutput.textContent = "Game Over, Play Again?"
             const children = gameButtonsContainer.children;
             //Checks who won the game
@@ -173,7 +173,7 @@ function playGame(playerChoice){
             }
 
         }
-        
+        remainingRounds--;
     }
     // Displays the choices for the computer and player
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;

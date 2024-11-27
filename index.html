@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate RPS</title>
-    <link rel="icon" type="icon/x-icon" href="https://pouch.jumpshare.com/preview/_0yBEOj-xa0CxeXtr30bcBo7xrh46DZgT4thceJ0bZHaLLvsNz2W14lF0COIEBcdbjj4paEawGdtM7iYB_eUw1EYdHRFWFETY_po9q447HI">
+    <!-- Favicon for the game -->
+    <link rel="icon" type="icon/x-icon" href="https://iili.io/2ceS5R1.png">
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Main game container -->
     <div class="container">
         <h1>Ultimate Rock Paper Scissors!!!!</h1>
+        <!-- Display for the remaining rounds -->
         <p id="rounds-output"></p>
+        <!-- Round selection container -->
         <div class="container" id="rounds-select">
             <form action="#">
+                <!-- Label for rounds dropdown -->
                 <label for="rounds">Please select the number of rounds you would like to play: </label>
                 <div class="custom-select">
+                    <!-- Dropdown for selecting number of rounds -->
                     <select name="" id="rounds">
                         <option value="1">1 Round</option>
                         <option value="2">2 Rounds</option>
@@ -24,45 +31,72 @@
                         <option value="6">6 Rounds</option>
                         <option value="7">7 Rounds</option>
                         <option value="8">8 Rounds</option>
-                </select>
-            </div>
+                    </select>
+                </div>
+                <!-- Submit button to start the game -->
                 <button class="btn" id="submit">Submit</button>
             </form>
         </div>
+
+        <!-- Buttons for game choices -->
         <div class="options" id="game-buttons">
-            <button class = "btn hide-element start-game-element" onclick="playGame('Rock✊')">Rock✊</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Paper✋')">Paper✋</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Scissors✌')">Scissors✌</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Gun🔫')">Gun🔫</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Lightning⚡')">Lightning⚡</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Devil😈')">Devil😈</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Dragon🐉')">Dragon🐉</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Water🌊')">Water🌊</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Air💨')">Air💨</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Sponge🧽')">Sponge🧽</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Wolf🐺')">Wolf🐺</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Tree🌲')">Tree🌲</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Human🧍')">Human🧍</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Snake🐍')">Snake🐍</button>
-            <button class = "btn hide-element start-game-element" onclick="playGame('Fire🔥')">Fire🔥</button>
+            <!-- Rock choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Rock✊')">Rock✊</button>
+            <!-- Paper choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Paper✋')">Paper✋</button>
+            <!-- Scissors choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Scissors✌')">Scissors✌</button>
+            <!-- Gun choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Gun🔫')">Gun🔫</button>
+            <!-- Lightning choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Lightning⚡')">Lightning⚡</button>
+            <!-- Devil choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Devil😈')">Devil😈</button>
+            <!-- Dragon choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Dragon🐉')">Dragon🐉</button>
+            <!-- Water choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Water🌊')">Water🌊</button>
+            <!-- Air choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Air💨')">Air💨</button>
+            <!-- Sponge choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Sponge🧽')">Sponge🧽</button>
+            <!-- Wolf choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Wolf🐺')">Wolf🐺</button>
+            <!-- Tree choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Tree🌲')">Tree🌲</button>
+            <!-- Human choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Human🧍')">Human🧍</button>
+            <!-- Snake choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Snake🐍')">Snake🐍</button>
+            <!-- Fire choice -->
+            <button class="btn hide-element start-game-element" onclick="playGame('Fire🔥')">Fire🔥</button>
         </div>
 
-    <h1 class="hide-element start-game-element" id="player-display">Player: </h1>
-    <h1 class="hide-element start-game-element"id="computer-display">Computer: </h1>
-    <h1 class="hide-element start-game-element" id="result-display"></h1>
+        <!-- Display for player's choice -->
+        <h1 class="hide-element start-game-element" id="player-display">Player: </h1>
+        <!-- Display for computer's choice -->
+        <h1 class="hide-element start-game-element" id="computer-display">Computer: </h1>
+        <!-- Display for the game result -->
+        <h1 class="hide-element start-game-element" id="result-display"></h1>
 
-    <div class="scoreDisplay hide-element start-game-element">Player Score: 
-        <h1 id="playerScoreDisplay">0</h1>
-    </div>
-    <div class="scoreDisplay hide-element start-game-element">Computer Score: 
-        <h1 id="computerScoreDisplay">0</h1>
+        <!-- Player score display -->
+        <div class="scoreDisplay hide-element start-game-element">
+            Player Score: 
+            <h1 id="playerScoreDisplay">0</h1>
+        </div>
+        <!-- Computer score display -->
+        <div class="scoreDisplay hide-element start-game-element">
+            Computer Score: 
+            <h1 id="computerScoreDisplay">0</h1>
+        </div>
+
+        <!-- Play Again button -->
+        <div class="container play-again-container hide-element start-game-element">
+            <button class="btn" id="play-again">Play Again?</button>
+        </div>
     </div>
 
-    <div class="container play-again-container hide-element start-game-element">
-        <button class="btn" id="play-again">Play Again?</button>
-    </div>
-</div>
-
-<script src="script.js" defer></script>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
 </body>
 </html>

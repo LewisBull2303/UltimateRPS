@@ -8,7 +8,7 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay")
 const roundsOutput = document.getElementById("rounds-output");
 const gameButtonsContainer = document.getElementById("game-buttons")
 
-const startGameElements = document.getElementsByClassName("start-game-element")
+const startGameElements = document.querySelectorAll(".start-game-element")
 
 const selectElement = document.getElementById('rounds')
 const submitDropDown = document.getElementById("submit")
@@ -45,6 +45,7 @@ function playGame(playerChoice){
 
     if( playerChoice === computerChoice){
         result = "Its a Tie!";
+        roundsOutput.textContent = `${remainingRounds} Rounds Left`;
     }
     else{
         switch(playerChoice){
@@ -99,7 +100,7 @@ function playGame(playerChoice){
             console.log(remainingRounds)
             roundsOutput.textContent = `${remainingRounds} Rounds Left`
         }
-        else if(remainingRounds <= 1){
+        else if(remainingRounds == 0){
             roundsOutput.textContent = "Game Over, Play Again?"
             const children = gameButtonsContainer.children;
             if(playerScore > computerScore){
@@ -113,6 +114,9 @@ function playGame(playerChoice){
                 resultDisplay.classList.add("red-Text");
                 resultDisplay.classList.remove("green-Text");
                 resultDisplay.classList.remove("gold-Text");
+            }
+            else if (playerChoice === computerChoice) {
+                roundsOutput.textContent = `${remainingRounds} Rounds Left`;
             }
             playerDisplay.classList.add("hide-element");
 
@@ -154,9 +158,19 @@ function playGame(playerChoice){
     }
 
     replayButton.addEventListener("click", () => {
-        while(disableHide.length){
-            disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g)
-        }
+        resultDisplay.textContent = ""
+        startGameElements.forEach(element => element.classList.add("hide-element"))
+
+        roundsOutput.classList.add("hide-element");
+        roundsSelect.classList.remove("hide-element")
+
+        playerDisplay.textContent = `PLAYER: `;
+        computerDisplay.textContent = `COMPUTER `;
+
+        playerScore = 0;
+        playerScoreDisplay.textContent = playerScore;
+        computerScore = 0;
+        computerScoreDisplay.textContent = computerScore;
     })
 
 }

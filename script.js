@@ -11,6 +11,9 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay")// C
 const roundsOutput = document.getElementById("rounds-output");// Display Remaing rounds
 const gameButtonsContainer = document.getElementById("game-buttons");// Container for game buttons
 
+const optionsButton = document.getElementById("options");// the options buttons
+const optionsElements = document.querySelectorAll(".options-element"); // Start game elements
+
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
 const selectElement = document.getElementById('rounds');// Dropdown for selecting the round
@@ -204,5 +207,12 @@ function playGame(playerChoice){
     } else {
         roundsOutput.textContent = `${remainingRounds} Rounds Left`;
     }
-
 }
+
+
+optionsButton.addEventListener('click' , () => {
+    optionsElements.forEach(element => element.classList.remove("hide-element"))
+    roundsOutput.classList.add("hide-element")
+    submitDropDown.classList.add("hide-element")
+    roundsSelect.classList.add("hide-element")
+})

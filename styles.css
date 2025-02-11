@@ -176,7 +176,10 @@ svg{
     margin-right: auto;
 }
 
-
+.options-header {
+    color: white;
+    padding-top: 10px;
+}
 
 .container .btn{
     margin-top: 1.5rem;

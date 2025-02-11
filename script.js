@@ -13,6 +13,7 @@ const gameButtonsContainer = document.getElementById("game-buttons");// Containe
 
 const optionsButton = document.getElementById("options");// the options buttons
 const optionsElements = document.querySelectorAll(".options-element"); // Start game elements
+const optionsBack = document.getElementById("optionsBack")
 
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
@@ -41,6 +42,9 @@ submitDropDown.addEventListener('click', (event) => {
     }
     roundsSelect.classList.add("hide-element")
     replayButton.classList.add("hide-element")
+    optionsElements.forEach(element => element.classList.add("hide-element"))
+    optionsBack.classList.add("hide-element")
+    optionsButton.classList.add("hide-element")
 })
 
 // Main Game Function
@@ -166,6 +170,7 @@ function playGame(playerChoice){
         startGameElements.forEach(element => element.classList.add("hide-element"))
 
         roundsOutput.classList.add("hide-element");
+        optionsButton.classList.remove("hide-element")
         roundsSelect.classList.remove("hide-element")
 
         playerDisplay.textContent = `PLAYER: `;
@@ -215,4 +220,15 @@ optionsButton.addEventListener('click' , () => {
     roundsOutput.classList.add("hide-element")
     submitDropDown.classList.add("hide-element")
     roundsSelect.classList.add("hide-element")
+    optionsBack.classList.remove("hide-element")
+    optionsButton.classList.add("hide-element")
+})
+
+optionsBack.addEventListener('click', () => {
+    optionsElements.forEach(element => element.classList.add("hide-element"))
+    roundsOutput.classList.remove("hide-element")
+    submitDropDown.classList.remove("hide-element")
+    roundsSelect.classList.remove("hide-element")
+    optionsBack.classList.add("hide-element")
+    optionsButton.classList.remove("hide-element")
 })

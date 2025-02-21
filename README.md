@@ -88,6 +88,11 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 -   From the source drop down menu, select the option that says main
 -   Once selected the pages link will generate allowing you to view your page.
 
+## Credits
+First and formost I would like to give credit to my wonderful girlfriend Jasmine, whos support has made managing a full time job, OpenUniversity and CodeInstitute submissions possible
+
+This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic game - https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+
 The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
 
 

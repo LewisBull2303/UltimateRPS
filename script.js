@@ -232,3 +232,4 @@ optionsBack.addEventListener('click', () => {
     optionsBack.classList.add("hide-element")
     optionsButton.classList.remove("hide-element")
 })
+

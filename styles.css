@@ -58,7 +58,6 @@
 html{
     /* Smooth scrolling behavior for the entire page */
     scroll-behavior: smooth;
-    overflow: hidden; /* Prevent page scrolling */
 }
 
 .options{
@@ -71,7 +70,6 @@ body{
     font-family: 'Satoshi', sans-serif;
     background-color: var(--color-dark);
     color: var(--color-light);
-    overflow: hidden;
     height: 100vh;
 }
 
@@ -239,7 +237,7 @@ i{
 }
 
 /* XXXS (extra extra small) */
-@media (min-width: 200px) {
+@media (min-width: 50px) {
     img{
         /* Adjust image size for very small screen widths */
         justify-content: center;

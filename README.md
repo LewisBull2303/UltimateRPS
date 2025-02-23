@@ -67,15 +67,15 @@ The design was chosen to create a modern, arcade-inspired aesthetic, blending vi
 
 The colors I chose were a green, black, white and various grey slate colors. This was to make the feel of a neon arcade. Some objects have a glow to them which help the vibe of a neon arcade game. The Red was chosen as a stark contrast to the neutral colours and to give the glow that neon signs have. The white, greys and blacks were chosen as a base color template which allows the red neon colour to really pop at the user and draw their attention. When the player wins there is a green colour for the victory text. When the player draws the text turns into a gold, and when the player loses the text turns red. Additonaly If I wanted something to add bold there is an indigo colour which was unused but in the code.
 
-Rose Colour: #e11d48
-Green Colour: #006400
-Gold Colour: #Ffd700
-Dark Colour: #070a13
-Light Colour: #f1f5f9
-Grey Slate 400: #94a3b8
-Grey Slate 600: #475569
-Grey Slate 800: #1e293b
-Indigo Colour: #4f46e5
+- Rose Colour: #e11d48
+- Green Colour: #006400
+- Gold Colour: #Ffd700
+- Dark Colour: #070a13
+- Light Colour: #f1f5f9
+- Grey Slate 400: #94a3b8
+- Grey Slate 600: #475569
+- Grey Slate 800: #1e293b
+- Indigo Colour: #4f46e5
 
 ![image](https://github.com/user-attachments/assets/7807b0ac-8b93-43fa-9dd8-a3d716cd8cc7)
 

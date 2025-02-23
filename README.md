@@ -82,6 +82,9 @@ The colors I chose were a green, black, white and various grey slate colors. Thi
 ### Colour Palette:
 ![image](https://github.com/user-attachments/assets/b9e13cf1-8dd9-4b54-bd5c-77e4f09b41c1)
 
+##   Fonts
+The font that I chose for UltimateRPS is Satoshi and sans-serif as a backup. Satoshi gave the website a very modern look and gave the web page personality whilst still not drawing the focus the away from the main game. 
+
 
 ## Features
 
@@ -91,8 +94,6 @@ The colors I chose were a green, black, white and various grey slate colors. Thi
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
-
-
 
 - ### Game Buttons
 -   The Game buttons are clear and consise easily allowing the user to see exactly which option they are picking

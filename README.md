@@ -95,6 +95,10 @@ The Structure of the site is made to make the users focus drawn to the game and 
 
 My wireframe concept was a single page, which would have everything that the user needed on there, there would be the home page where the user can select the amount of rounds and then click play, where all of the buttons they can click would pop up and the amount of rounds would be at the top. Then when the game was over a screen saying if they won or lost would appear and it woul show the score, with a button underneath to play again.
 
+### Home Page:
+![image](https://github.com/user-attachments/assets/d1ae0afd-d938-40d1-8022-a3b2ca82e62c)
+
+
 ## Features
 
 - ### DropDown Bar

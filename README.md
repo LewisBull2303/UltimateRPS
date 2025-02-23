@@ -58,6 +58,15 @@ The goal of this project is to create a new and exciting take on the classic gam
 - As the Site maker, I would like the user to have many different games buttons to click on.
 - As the Site maker, I would like to give the user a guide on how to play my game.
 
+## Design
+
+### Designm Choices
+The design was chosen to create a modern, arcade-inspired aesthetic, blending vibrant colors and bold elements that evoke the energy of classic arcade games. The intention was to make key objects on the page stand out, using contrasting colors to naturally guide the player's attention. This visual strategy enhances the overall user experience, making the interface engaging and intuitive while staying true to the playful, dynamic feel of an arcade environment.
+
+### Color
+
+The colors I chose were a green, black, white and various grey slate colors. This was to make the feel of a neon arcade. Some objects have a glow to them which help the vibe of a neon arcade game. The Red was chosen as a stark contrast to the neutral colours and to give the glow that neon signs have. The white, greys and blacks were chosen as a base color template which allows the red neon colour to really pop at the user and draw their attention.
+
 ## Features
 
 - ### DropDown Bar

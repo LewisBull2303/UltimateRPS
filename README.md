@@ -85,6 +85,15 @@ The colors I chose were a green, black, white and various grey slate colors. Thi
 ##   Fonts
 The font that I chose for UltimateRPS is Satoshi and sans-serif as a backup. Satoshi gave the website a very modern look and gave the web page personality whilst still not drawing the focus the away from the main game. 
 
+## Structure
+The Structure of the site is made to make the users focus drawn to the game and its componants. When the user opens the page the interactable objects are in the rose colour and glowing to it is intuitively clear to the user that they can be clicked and interacted with. This allows the users to come to the site and play the game straight away as it is clear which parts are intereactable. This also allows for the user to feel welcome and then allows them to jump straight into the game.
+ - The home page has clear interactable objects that glow which allows the user to intuitively know how to play the game.
+ - There is buttons for social media links which then link to my social medias on the home page.
+ - All objects are structured to be able to work on all types of devices.
+
+## Wireframe
+
+My wireframe concept was a single page, which would have everything that the user needed on there, there would be the home page where the user can select the amount of rounds and then click play, where all of the buttons they can click would pop up and the amount of rounds would be at the top. Then when the game was over a screen saying if they won or lost would appear and it woul show the score, with a button underneath to play again.
 
 ## Features
 

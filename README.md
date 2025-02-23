@@ -8,7 +8,55 @@ This website is made for game enthusiasts and people that enjoy learning new ver
 
 ![image](https://github.com/user-attachments/assets/5e4d1155-be64-48c9-ba63-7eb69960b119)
 
+## Project Goals
 
+The goal of this project is to create a new and exciting take on the classic game rock, paper, scissors.
+
+## User Goals
+- To play a different and unique game.
+- To have a limited amount of rounds to determine the winner.
+- To be able to choose from many different options.
+- To be replayble and fun.
+- To make me want to come back and play more.
+
+## Site Goals
+- Provide an enjoyable and fun game to users.
+- To allow the user to select different rounds for different degrees of difficulty.
+- To provide compatability across all screen sizes.
+- To provide an option for the users to contact me via social media.
+
+## Users Experience
+
+### Target Audiance
+- Users who enjoy rock, paper, scissors.
+- Users who enjoy playing games.
+- Users that like chance style games.
+
+### User Requirements and Expectations
+- Guide on how to play.
+- Ability to select the number of rounds to play.
+- A way to keep track of the score.
+- An option to contact the maker of the site.
+- Controls to start and stop the game.
+
+## User Stories
+- As a User, I want to be able to select the number of rounds.
+- As a User, I want to have a guide on how to play.
+- As a User, I want to be able to go back to the home page whenever I want.
+- As a User, I want to be able to play the game on any device.
+- As a User, I want to have the game be fun .
+- As a User, I want the game to be replayable.
+- As a User, I want to have many options to win.
+- As a User, I want to see the score at the end of the game.
+
+## Site Goals
+- As the Site maker, I would like to create a fun and replayable game.
+- As the Site maker, I would like to make the game accessable on all devices.
+- As the Site maker, I would like to allow the user autonomy on how to navigate the site.
+- As the Site maker, I would like to allow the user to contact me via social media links.
+- As the Site maker, I would like to allow the user to select a number of rounds.
+- As the Site maker, I would like the user to have many different games buttons to click on.
+- As the Site maker, I would like to give the user a guide on how to play my game.
 
 ## Features
 

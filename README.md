@@ -98,6 +98,9 @@ My wireframe concept was a single page, which would have everything that the use
 ### Home Page:
 ![image](https://github.com/user-attachments/assets/d1ae0afd-d938-40d1-8022-a3b2ca82e62c)
 
+### Game Page:
+![image](https://github.com/user-attachments/assets/c2d5f8dd-b686-4f4e-a811-990c48c4ef30)
+
 
 ## Features
 

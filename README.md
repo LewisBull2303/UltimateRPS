@@ -49,21 +49,22 @@ The goal of this project is to create a new and exciting take on the classic gam
 7. As a User, I want to have many options to win.
 8. As a User, I want to see the score at the end of the game.
 9. As a user, I want it to be clear if I won or lost
+10. As a user, I want to be able to contact the site maker
 
 ## Site Goals
-9. As the Site maker, I would like to create a fun and replayable game.
-10. As the Site maker, I would like to make the game accessable on all devices.
-11. As the Site maker, I would like to allow the user autonomy on how to navigate the site.
-12. As the Site maker, I would like to allow the user to contact me via social media links.
-13. As the Site maker, I would like to allow the user to select a number of rounds.
-14. As the Site maker, I would like the user to have many different games buttons to click on.
-15. As the Site maker, I would like to give the user a guide on how to play my game.
-16. As the Site Maker, I want it to be clear to the user if they won or lost
+11. As the Site maker, I would like to create a fun and replayable game.
+12. As the Site maker, I would like to make the game accessable on all devices.
+13. As the Site maker, I would like to allow the user autonomy on how to navigate the site.
+14. As the Site maker, I would like to allow the user to contact me via social media links.
+15. As the Site maker, I would like to allow the user to select a number of rounds.
+16. As the Site maker, I would like the user to have many different games buttons to click on.
+17. As the Site maker, I would like to give the user a guide on how to play my game.
+18. As the Site Maker, I want it to be clear to the user if they won or lost
 
 ## Design
 
 ### Design Choices
-The design was chosen to create a modern, arcade-inspired aesthetic, blending vibrant colors and bold elements that evoke the energy of classic arcade games. The intention was to make key objects on the page stand out, using contrasting colors to naturally guide the player's attention. This visual strategy enhances the overall user experience, making the interface engaging and intuitive while staying true to the playful, dynamic feel of an arcade environment.
+The design was chosen to create a modern, arcade-inspired aesthetic, blending vibrant colors and bold elements that evoke the energy of classic arcade games. The intention was to make key objects on the page stand out, using contrasting colors to naturally guide the player's attention. This visual strategy enhances the overall user experience, making the interface engaging and intuitive while staying true to the playful, dynamic feel of an arcade environment. Additionally all buttons respond to the user hovering and clicking on them providing instant feedback to the user.
 
 ### Color
 
@@ -133,7 +134,7 @@ My wireframe concept was a single page, which would have everything that the use
   - The user can pick to play 1 to 8 rounds.
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
   - It is fully responsive on all screen sizes and it located on the home page
-  - User Stories Answered: 1, 4, 6, 9, 10, 13
+  - User Stories Answered: 1, 4, 6, 10, 11, 13
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 
@@ -142,7 +143,7 @@ My wireframe concept was a single page, which would have everything that the use
 -   The colors were chosen to allow the buttons to pop in contrast to the background, I also added a glow to the buttons to make them more appealing.
 -   The Buttons also include emojis to give the game a more modern look and brings out the character of each option.
 -   It is fully responsive on all screen sizes and is located on the game page.
--   User Stories Answered: 4, 5, 6, 7, 9, 10, 14
+-   User Stories Answered: 4, 5, 6, 7, 10, 11, 14
 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
 
@@ -151,13 +152,15 @@ My wireframe concept was a single page, which would have everything that the use
 -   Underneath the game buttons is a player score which allows the user to track their score easily.
 -   The score section also has a space for the computers score which allows the user to see if they are winning or losing.
 -   The Score appears in green to the user and red for the computer to easily differenciate the 2 different scores.
--   It is fully responsive on all screen sizes and it located on the game page.
+-   It is fully responsive on all screen sizes and is located on the game page.
 -   User Stories Answered: 4, 5, 8, 9, 10, 16
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
 - ### Player And Computer Choices
 -   Just above the score area there is an area which show the user what they picked and what the computer picked for their options
 -   This allows the user to see which option win against others allowing them to pick up on the rules easier
+-   It is fully responsive on all screen sizes and is located on the game page
+-   User Stories Answered: 
   
 ![image](https://github.com/user-attachments/assets/bc90dc1b-5268-43e2-8e8e-2350c9686c46)
 

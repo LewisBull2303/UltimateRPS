@@ -107,6 +107,9 @@ My wireframe concept was a single page, which would have everything that the use
 ### Win/Lose/Draw Page
 ![image](https://github.com/user-attachments/assets/b1e25d48-72a9-479d-b9ef-029096973e2b)
 
+### How to play Page
+![image](https://github.com/user-attachments/assets/d5314797-bb9a-4ec4-9611-e6c0fe67cdf9)
+
 ## Features
 
 - ### DropDown Bar

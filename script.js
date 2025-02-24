@@ -238,6 +238,14 @@ optionsBack.addEventListener('click', () => {
 
 backButton.addEventListener('click', () => {
     homePage()
+
+    if(remainingRounds > 0){
+        roundsOutput.textContent = `${remainingRounds}`
+        selectElement.classList.add("hide-element")
+        submitDropDown.textContent = "Continue?"
+        submitDropDown.style.fontSize = "22px"
+        selectElement.value == remainingRounds
+    }
 })
 
 function homePage() {
@@ -256,7 +264,7 @@ function homePage() {
     computerScoreDisplay.classList.add("hide-element")
     roundsOutput.classList.add("hide-element")
     gameButtonsContainer.classList.add("hide-element")
-    optionsElements.classList.add("hide-element")
+    optionsElements.forEach(element => element.classList.add("hide-element"))
     optionsBack.classList.add("hide-element")
     startGameElements.forEach(element => element.classList.add("hide-element"))
     replayButton.classList.add("hide-element")

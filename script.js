@@ -13,7 +13,9 @@ const gameButtonsContainer = document.getElementById("game-buttons");// Containe
 
 const optionsButton = document.getElementById("options");// the options buttons
 const optionsElements = document.querySelectorAll(".options-element"); // Start game elements
-const optionsBack = document.getElementById("optionsBack")
+const optionsBack = document.getElementById("optionsBack");
+
+const backButton = document.getElementById("backButton");
 
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 

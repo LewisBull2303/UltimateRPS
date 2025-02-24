@@ -240,9 +240,6 @@ backButton.addEventListener('click', () => {
         roundsOutput.textContent = `${remainingRounds} Rounds Left`
         roundInstructions.textContent = "Would you like to continue?"
     }
-    else{
-
-    }
 })
 
 testButton.addEventListener("click", () => {
@@ -260,6 +257,7 @@ function homePage() {
     submitDropDown.textContent = "Submit"
     submitDropDown.style.fontSize = "12px"
     // All elements not on the home page so hidden
+    backButton.classList.add("hide-element")
     playerDisplay.classList.add("hide-element")
     computerDisplay.classList.add("hide-element")
     resultDisplay.classList.add("hide-element")
@@ -284,6 +282,7 @@ function gamePage() {
     playerDisplay.classList.remove("hide-element")
     computerDisplay.classList.remove("hide-element")
     roundsOutput.classList.remove("hide-element")
+    backButton.classList.remove("hide-element")
     // All elements not on the game page so hidden
     optionsElements.forEach(element => element.classList.add("hide-element"))
     optionsBack.classList.add("hide-element")

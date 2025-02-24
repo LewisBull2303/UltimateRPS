@@ -17,8 +17,6 @@ const optionsBack = document.getElementById("optionsBack");
 
 const backButton = document.getElementById("backButton");
 
-const testButton = document.getElementById("testButton");
-
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
 const selectElement = document.getElementById('rounds');// Dropdown for selecting the round
@@ -182,6 +180,7 @@ function playGame(playerChoice){
     })
 
     if(remainingRounds <= 0){
+        backButton.classList.add("hide-element") 
         roundsOutput.textContent = "Game Over, Play Again?";
         // Display final results when the game ends
         if(playerScore > computerScore){
@@ -240,10 +239,9 @@ backButton.addEventListener('click', () => {
         roundsOutput.textContent = `${remainingRounds} Rounds Left`
         roundInstructions.textContent = "Would you like to continue?"
     }
-})
-
-testButton.addEventListener("click", () => {
-    gamePage()
+    else{
+        homePage()
+    }
 })
 
 function homePage() {

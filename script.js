@@ -22,6 +22,7 @@ const testButton = document.getElementById("testButton");
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
 const selectElement = document.getElementById('rounds');// Dropdown for selecting the round
+const roundInstructions = document.getElementById("roundInstructions")
 const submitDropDown = document.getElementById("submit"); //Submit button
 const roundsSelect = document.getElementById("rounds-select");// Select for the rounds
 
@@ -237,10 +238,10 @@ backButton.addEventListener('click', () => {
         submitDropDown.style.fontSize = "22px"
         selectElement.value = remainingRounds
         roundsOutput.textContent = `${remainingRounds} Rounds Left`
+        roundInstructions.textContent = "Would you like to continue?"
     }
     else{
-        submitDropDown.textContent = "Submit"
-        submitDropDown.style.fontSize = "18px"
+
     }
 })
 
@@ -255,6 +256,9 @@ function homePage() {
     roundsSelect.classList.remove("hide-element")
     backButton.classList.remove("hide-element")
     submitDropDown.classList.remove("hide-element")
+    roundInstructions.textContent = "Please select the number of rounds you would like to play: "
+    submitDropDown.textContent = "Submit"
+    submitDropDown.style.fontSize = "12px"
     // All elements not on the home page so hidden
     playerDisplay.classList.add("hide-element")
     computerDisplay.classList.add("hide-element")

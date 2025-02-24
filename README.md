@@ -110,6 +110,13 @@ My wireframe concept was a single page, which would have everything that the use
 ### How to play Page
 ![image](https://github.com/user-attachments/assets/d5314797-bb9a-4ec4-9611-e6c0fe67cdf9)
 
+## Technologies Used
+
+### Languages:
+ - HTML
+ - CSS
+ - JavaScript
+
 ## Features
 
 - ### DropDown Bar

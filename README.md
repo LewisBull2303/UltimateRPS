@@ -117,6 +117,13 @@ My wireframe concept was a single page, which would have everything that the use
  - CSS
  - JavaScript
 
+### Frameworks and Tools
+ - [Git](https://git-scm.com/) - To use cloning mt repo to computers I am working on, as well as using add, commit and push to add my changes to my github repo
+ - Github - To host my project online for submission
+ - Visual Studio Code - To create and edit the source code for this project
+ - Font Awesome - To add icons to my project
+ - FontShare - To find my base font for my project
+
 ## Features
 
 - ### DropDown Bar

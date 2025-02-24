@@ -44,12 +44,7 @@ submitDropDown.addEventListener('click', (event) => {
     while(disableHide.length){
         disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g)
     }
-    roundsSelect.classList.add("hide-element")
-    replayButton.classList.add("hide-element")
-    optionsElements.forEach(element => element.classList.add("hide-element"))
-    optionsBack.classList.add("hide-element")
-    optionsButton.classList.add("hide-element")
-    backButton.classList.remove("hide-element")
+    gamePage()
 })
 
 // Main Game Function
@@ -174,9 +169,7 @@ function playGame(playerChoice){
         resultDisplay.textContent = ""
         startGameElements.forEach(element => element.classList.add("hide-element"))
 
-        roundsOutput.classList.add("hide-element");
-        optionsButton.classList.remove("hide-element")
-        roundsSelect.classList.remove("hide-element")
+        homePage()
 
         playerDisplay.textContent = `PLAYER: `;
         computerDisplay.textContent = `COMPUTER `;
@@ -227,15 +220,11 @@ optionsButton.addEventListener('click' , () => {
     roundsSelect.classList.add("hide-element")
     optionsBack.classList.remove("hide-element")
     optionsButton.classList.add("hide-element")
+    backButton.classList.add("hide-element")
 })
 
 optionsBack.addEventListener('click', () => {
-    optionsElements.forEach(element => element.classList.add("hide-element"))
-    roundsOutput.classList.remove("hide-element")
-    submitDropDown.classList.remove("hide-element")
-    roundsSelect.classList.remove("hide-element")
-    optionsBack.classList.add("hide-element")
-    optionsButton.classList.remove("hide-element")
+    homePage()
 })
 
 backButton.addEventListener('click', () => {
@@ -246,8 +235,6 @@ backButton.addEventListener('click', () => {
         selectElement.classList.add("hide-element")
         submitDropDown.textContent = "Continue?"
         submitDropDown.style.fontSize = "22px"
-        console.log(remainingRounds)
-        console.log(selectElement.value)
         selectElement.value = remainingRounds
         roundsOutput.textContent = `${remainingRounds} Rounds Left`
     }
@@ -265,9 +252,9 @@ function homePage() {
     // All elements on the home page, so unhide them
     optionsButton.classList.remove("hide-element")
     selectElement.classList.remove("hide-element")
-    submitDropDown.classList.remove("hide-element")
     roundsSelect.classList.remove("hide-element")
     backButton.classList.remove("hide-element")
+    submitDropDown.classList.remove("hide-element")
     // All elements not on the home page so hidden
     playerDisplay.classList.add("hide-element")
     computerDisplay.classList.add("hide-element")

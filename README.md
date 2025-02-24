@@ -40,23 +40,23 @@ The goal of this project is to create a new and exciting take on the classic gam
 - Controls to start and stop the game.
 
 ## User Stories
-- 1. As a User, I want to be able to select the number of rounds.
-- 2. As a User, I want to have a guide on how to play.
-- 3. As a User, I want to be able to go back to the home page whenever I want.
-- 4. As a User, I want to be able to play the game on any device.
-- 5. As a User, I want to have the game be fun .
-- 6. As a User, I want the game to be replayable.
-- 7. As a User, I want to have many options to win.
-- 8. As a User, I want to see the score at the end of the game.
+1. As a User, I want to be able to select the number of rounds.
+2. As a User, I want to have a guide on how to play.
+3. As a User, I want to be able to go back to the home page whenever I want.
+4. As a User, I want to be able to play the game on any device.
+5. As a User, I want to have the game be fun .
+6. As a User, I want the game to be replayable.
+7. As a User, I want to have many options to win.
+8. As a User, I want to see the score at the end of the game.
 
 ## Site Goals
-- 9. As the Site maker, I would like to create a fun and replayable game.
-- 10. As the Site maker, I would like to make the game accessable on all devices.
-- 11. As the Site maker, I would like to allow the user autonomy on how to navigate the site.
-- 12. As the Site maker, I would like to allow the user to contact me via social media links.
-- 13. As the Site maker, I would like to allow the user to select a number of rounds.
-- 14. As the Site maker, I would like the user to have many different games buttons to click on.
-- 15. As the Site maker, I would like to give the user a guide on how to play my game.
+9. As the Site maker, I would like to create a fun and replayable game.
+10. As the Site maker, I would like to make the game accessable on all devices.
+11. As the Site maker, I would like to allow the user autonomy on how to navigate the site.
+12. As the Site maker, I would like to allow the user to contact me via social media links.
+13. As the Site maker, I would like to allow the user to select a number of rounds.
+14. As the Site maker, I would like the user to have many different games buttons to click on.
+15. As the Site maker, I would like to give the user a guide on how to play my game.
 
 ## Design
 

@@ -48,6 +48,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 6. As a User, I want the game to be replayable.
 7. As a User, I want to have many options to win.
 8. As a User, I want to see the score at the end of the game.
+9. As a user, I want it to be clear if I won or lost
 
 ## Site Goals
 9. As the Site maker, I would like to create a fun and replayable game.
@@ -57,6 +58,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 13. As the Site maker, I would like to allow the user to select a number of rounds.
 14. As the Site maker, I would like the user to have many different games buttons to click on.
 15. As the Site maker, I would like to give the user a guide on how to play my game.
+16. As the Site Maker, I want it to be clear to the user if they won or lost
 
 ## Design
 
@@ -139,17 +141,18 @@ My wireframe concept was a single page, which would have everything that the use
 -   The Game buttons are clear and consise easily allowing the user to see exactly which option they are picking.
 -   The colors were chosen to allow the buttons to pop in contrast to the background, I also added a glow to the buttons to make them more appealing.
 -   The Buttons also include emojis to give the game a more modern look and brings out the character of each option.
--   It is fully responsive on all screen sizes.
+-   It is fully responsive on all screen sizes and is located on the game page.
 -   User Stories Answered: 4, 5, 6, 7, 9, 10, 14
 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
 
 
 - ### Player And Computer Score
--   Underneath the game buttons is a player score which allows the user to track their score easily
--   The score section also has a space for the computers score which allows the user to see if they are winning or losing
--   The Score appears in green to the user and red for the computer to easily differenciate the 2 different scores
-  
+-   Underneath the game buttons is a player score which allows the user to track their score easily.
+-   The score section also has a space for the computers score which allows the user to see if they are winning or losing.
+-   The Score appears in green to the user and red for the computer to easily differenciate the 2 different scores.
+-   It is fully responsive on all screen sizes and it located on the game page.
+-   User Stories Answered: 4, 5, 8, 9, 10, 16
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
 - ### Player And Computer Choices

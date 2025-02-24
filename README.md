@@ -60,7 +60,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 
 ## Design
 
-### Designm Choices
+### Design Choices
 The design was chosen to create a modern, arcade-inspired aesthetic, blending vibrant colors and bold elements that evoke the energy of classic arcade games. The intention was to make key objects on the page stand out, using contrasting colors to naturally guide the player's attention. This visual strategy enhances the overall user experience, making the interface engaging and intuitive while staying true to the playful, dynamic feel of an arcade environment.
 
 ### Color

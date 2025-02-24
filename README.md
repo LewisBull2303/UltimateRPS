@@ -101,6 +101,8 @@ My wireframe concept was a single page, which would have everything that the use
 ### Game Page:
 ![image](https://github.com/user-attachments/assets/c2d5f8dd-b686-4f4e-a811-990c48c4ef30)
 
+### Win/Lose/Draw Page
+![image](https://github.com/user-attachments/assets/b1e25d48-72a9-479d-b9ef-029096973e2b)
 
 ## Features
 

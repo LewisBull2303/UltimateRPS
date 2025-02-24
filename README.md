@@ -129,12 +129,12 @@ My wireframe concept was a single page, which would have everything that the use
 
 ## Features
 
-- ### DropDown Bar
+- ### Dropdown Bar
   - Featured at the top center of the screen when you first load the website is a dropdown which allows the user to select the amount of rounds they want to play
   - The user can pick to play 1 to 8 rounds.
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
   - It is fully responsive on all screen sizes and it located on the home page
-  - User Stories Answered: 1, 4, 6, 10, 11, 13
+  - User Stories Answered: 1, 4, 6, 12, 13, 15
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 
@@ -143,7 +143,7 @@ My wireframe concept was a single page, which would have everything that the use
 -   The colors were chosen to allow the buttons to pop in contrast to the background, I also added a glow to the buttons to make them more appealing.
 -   The Buttons also include emojis to give the game a more modern look and brings out the character of each option.
 -   It is fully responsive on all screen sizes and is located on the game page.
--   User Stories Answered: 4, 5, 6, 7, 10, 11, 14
+-   User Stories Answered: 4, 5, 6, 7, 11, 12, 16
 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
 
@@ -153,7 +153,7 @@ My wireframe concept was a single page, which would have everything that the use
 -   The score section also has a space for the computers score which allows the user to see if they are winning or losing.
 -   The Score appears in green to the user and red for the computer to easily differenciate the 2 different scores.
 -   It is fully responsive on all screen sizes and is located on the game page.
--   User Stories Answered: 4, 5, 8, 9, 10, 16
+-   User Stories Answered: 4, 5, 8, 9, 12, 18
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
 - ### Player And Computer Choices

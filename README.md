@@ -160,14 +160,16 @@ My wireframe concept was a single page, which would have everything that the use
 -   Just above the score area there is an area which show the user what they picked and what the computer picked for their options
 -   This allows the user to see which option win against others allowing them to pick up on the rules easier
 -   It is fully responsive on all screen sizes and is located on the game page
--   User Stories Answered: 
+-   User Stories Answered: 4, 12
   
 ![image](https://github.com/user-attachments/assets/bc90dc1b-5268-43e2-8e8e-2350c9686c46)
 
 - ### Play Again Button
 -   When the player has completed all the rounds they selected, the play again button will appear
 -   This button allows the player to return to the start of the game and try again, the player can re-select the amount of rounds that they want to do
--   The Button has simialar styling to the other so the user can easily understand that is in an interactible object	
+-   The Button has simialar styling to the other so the user can easily understand that is in an interactible object
+-   It is fully responsive on all screen sizes and is located on the Win/Draw/Lose Page
+-   User Stories Answered: 3, 4, 6, 11, 12, 
   
 ![image](https://github.com/user-attachments/assets/d7a18db6-0d7a-471d-aa26-c8a21d23bd3d)
 

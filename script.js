@@ -258,6 +258,6 @@ function homePage() {
     gameButtonsContainer.classList.add("hide-element")
     optionsElements.classList.add("hide-element")
     optionsBack.classList.add("hide-element")
-    startGameElements.classList.add("hide-element")
+    startGameElements.forEach(element => element.classList.add("hide-element"))
     replayButton.classList.add("hide-element")
 }

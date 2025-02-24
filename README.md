@@ -44,7 +44,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 2. As a User, I want to have a guide on how to play.
 3. As a User, I want to be able to go back to the home page whenever I want.
 4. As a User, I want to be able to play the game on any device.
-5. As a User, I want to have the game be fun .
+5. As a User, I want to have the game be fun.
 6. As a User, I want the game to be replayable.
 7. As a User, I want to have many options to win.
 8. As a User, I want to see the score at the end of the game.
@@ -130,7 +130,8 @@ My wireframe concept was a single page, which would have everything that the use
   - Featured at the top center of the screen when you first load the website is a dropdown which allows the user to select the amount of rounds they want to play
   - The user can pick to play 1 to 8 rounds.
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
-  - It is fully responsive on all screen sizes
+  - It is fully responsive on all screen sizes and it located on the home page
+  - User Stories answered: 1, 4, 6, 9, 10, 13
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 

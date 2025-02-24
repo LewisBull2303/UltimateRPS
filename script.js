@@ -263,7 +263,6 @@ testButton.addEventListener("click", () => {
 
 function homePage() {
     // All elements on the home page, so unhide them
-    roundsOutput.classList.remove("hide-element")
     optionsButton.classList.remove("hide-element")
     selectElement.classList.remove("hide-element")
     submitDropDown.classList.remove("hide-element")
@@ -293,12 +292,11 @@ function gamePage() {
     computerScoreDisplay.classList.remove("hide-element")
     playerDisplay.classList.remove("hide-element")
     computerDisplay.classList.remove("hide-element")
+    roundsOutput.classList.remove("hide-element")
     // All elements not on the game page so hidden
-    roundsOutput.classList.add("hide-element")
     optionsElements.forEach(element => element.classList.add("hide-element"))
     optionsBack.classList.add("hide-element")
     replayButton.classList.add("hide-element")
-    roundsOutput.classList.add("hide-element")
     optionsButton.classList.add("hide-element")
     selectElement.classList.add("hide-element")
     submitDropDown.classList.add("hide-element")

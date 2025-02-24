@@ -236,7 +236,7 @@ optionsBack.addEventListener('click', () => {
 })
 
 backButton.addEventListener('click', () => {
-
+    homePage()
 })
 
 function homePage() {

@@ -131,14 +131,16 @@ My wireframe concept was a single page, which would have everything that the use
   - The user can pick to play 1 to 8 rounds.
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
   - It is fully responsive on all screen sizes and it located on the home page
-  - User Stories answered: 1, 4, 6, 9, 10, 13
+  - User Stories Answered: 1, 4, 6, 9, 10, 13
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 
 - ### Game Buttons
--   The Game buttons are clear and consise easily allowing the user to see exactly which option they are picking
--   The colors were chosen to allow the buttons to pop in contrast to the background, I also added a glow to the buttons to make them more appealing
+-   The Game buttons are clear and consise easily allowing the user to see exactly which option they are picking.
+-   The colors were chosen to allow the buttons to pop in contrast to the background, I also added a glow to the buttons to make them more appealing.
 -   The Buttons also include emojis to give the game a more modern look and brings out the character of each option.
+-   It is fully responsive on all screen sizes.
+-   User Stories Answered: 4, 5, 6, 7, 9, 10, 14
 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
 

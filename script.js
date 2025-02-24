@@ -257,6 +257,10 @@ backButton.addEventListener('click', () => {
     }
 })
 
+testButton.addEventListener("click", () => {
+    gamePage()
+})
+
 function homePage() {
     // All elements on the home page, so unhide them
     roundsOutput.classList.remove("hide-element")

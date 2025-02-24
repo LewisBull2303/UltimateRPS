@@ -52,6 +52,7 @@ submitDropDown.addEventListener('click', (event) => {
 
 // Main Game Function
 function playGame(playerChoice){
+    console.log(remainingRounds)
     const computerChoice = choices[Math.floor(Math.random() * 15)]; // Random computer choice
     let result = "";
 
@@ -244,7 +245,10 @@ backButton.addEventListener('click', () => {
         selectElement.classList.add("hide-element")
         submitDropDown.textContent = "Continue?"
         submitDropDown.style.fontSize = "22px"
-        selectElement.value == remainingRounds
+        console.log(remainingRounds)
+        console.log(selectElement.value)
+        selectElement.value = remainingRounds
+        roundsOutput.textContent = `${remainingRounds} Rounds Left`
     }
 })
 

@@ -12,7 +12,7 @@ const roundsOutput = document.getElementById("rounds-output");// Display Remaing
 const gameButtonsContainer = document.getElementById("game-buttons");// Container for game buttons
 
 const optionsButton = document.getElementById("options");// the options buttons
-const optionsElements = document.querySelectorAll(".options-element"); // Start game elements
+const optionsElements = document.querySelectorAll(".options-element"); // Options elements such as the image
 const optionsBack = document.getElementById("optionsBack");
 
 const backButton = document.getElementById("backButton");
@@ -235,3 +235,28 @@ optionsBack.addEventListener('click', () => {
     optionsButton.classList.remove("hide-element")
 })
 
+backButton.addEventListener('click', () => {
+
+})
+
+function homePage() {
+    // All elements on the home page, so unhide them
+    roundsOutput.classList.remove("hide-element")
+    optionsButton.classList.remove("hide-element")
+    selectElement.classList.remove("hide-element")
+    submitDropDown.classList.remove("hide-element")
+    roundsSelect.classList.remove("hide-element")
+    backButton.classList.remove("hide-element")
+    // All elements not on the home page so hidden
+    playerDisplay.classList.add("hide-element")
+    computerDisplay.classList.add("hide-element")
+    resultDisplay.classList.add("hide-element")
+    playerScoreDisplay.classList.add("hide-element")
+    computerScoreDisplay.classList.add("hide-element")
+    roundsOutput.classList.add("hide-element")
+    gameButtonsContainer.classList.add("hide-element")
+    optionsElements.classList.add("hide-element")
+    optionsBack.classList.add("hide-element")
+    startGameElements.classList.add("hide-element")
+    replayButton.classList.add("hide-element")
+}

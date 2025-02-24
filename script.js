@@ -47,6 +47,7 @@ submitDropDown.addEventListener('click', (event) => {
     optionsElements.forEach(element => element.classList.add("hide-element"))
     optionsBack.classList.add("hide-element")
     optionsButton.classList.add("hide-element")
+    backButton.classList.remove("hide-element")
 })
 
 // Main Game Function

@@ -40,23 +40,23 @@ The goal of this project is to create a new and exciting take on the classic gam
 - Controls to start and stop the game.
 
 ## User Stories
-- As a User, I want to be able to select the number of rounds.
-- As a User, I want to have a guide on how to play.
-- As a User, I want to be able to go back to the home page whenever I want.
-- As a User, I want to be able to play the game on any device.
-- As a User, I want to have the game be fun .
-- As a User, I want the game to be replayable.
-- As a User, I want to have many options to win.
-- As a User, I want to see the score at the end of the game.
+- 1. As a User, I want to be able to select the number of rounds.
+- 2. As a User, I want to have a guide on how to play.
+- 3. As a User, I want to be able to go back to the home page whenever I want.
+- 4. As a User, I want to be able to play the game on any device.
+- 5. As a User, I want to have the game be fun .
+- 6. As a User, I want the game to be replayable.
+- 7. As a User, I want to have many options to win.
+- 8. As a User, I want to see the score at the end of the game.
 
 ## Site Goals
-- As the Site maker, I would like to create a fun and replayable game.
-- As the Site maker, I would like to make the game accessable on all devices.
-- As the Site maker, I would like to allow the user autonomy on how to navigate the site.
-- As the Site maker, I would like to allow the user to contact me via social media links.
-- As the Site maker, I would like to allow the user to select a number of rounds.
-- As the Site maker, I would like the user to have many different games buttons to click on.
-- As the Site maker, I would like to give the user a guide on how to play my game.
+- 9. As the Site maker, I would like to create a fun and replayable game.
+- 10. As the Site maker, I would like to make the game accessable on all devices.
+- 11. As the Site maker, I would like to allow the user autonomy on how to navigate the site.
+- 12. As the Site maker, I would like to allow the user to contact me via social media links.
+- 13. As the Site maker, I would like to allow the user to select a number of rounds.
+- 14. As the Site maker, I would like the user to have many different games buttons to click on.
+- 15. As the Site maker, I would like to give the user a guide on how to play my game.
 
 ## Design
 
@@ -130,6 +130,7 @@ My wireframe concept was a single page, which would have everything that the use
   - Featured at the top center of the screen when you first load the website is a dropdown which allows the user to select the amount of rounds they want to play
   - The user can pick to play 1 to 8 rounds.
   - The dropdown menu has been styled to appeal to a wide audiance and allows the user to clearly see the option from the backdrop
+  - It is fully responsive on all screen sizes
 
 ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 

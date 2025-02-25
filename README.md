@@ -259,7 +259,21 @@ Proof of using the playGame Function:
 
 - Accessibility
 -   I confirmed that the colors and fonts chose are easy to read and accessible by running it through lighthouse in devtools
+
 ![image](https://github.com/user-attachments/assets/7948c453-0c23-49ca-b2cf-9d82f2495ca9)
+
+## Testing across Different Devices
+The following devices were used to test if Ultimate Rock Paper Scissors:
+ - Iphone 13 (Physical)
+ - PC/Desktop (Physical)
+ - Samsung Galaxy Tablet A8 (Simulated)
+ - Surface Pro 7 (Simulated)
+ - ASUS Zenbook Fold (Simulated)
+The following browsers were tested for compatibility, All Browsers were full compatible:
+ - Google Chrome (Fully Compatible)
+ - Microsoft Edge (Fully Compatible)
+ - Opera GX (Fully Compatible)
+ - FireFox (Full Compatible)
 
 ## Deployment
 - This site was deployed to Github pages. The steps to deploy are as follows:

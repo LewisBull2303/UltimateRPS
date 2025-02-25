@@ -1,4 +1,4 @@
-# Ultimate Rock Papar Scissors
+# Ultimate Rock Paper Scissors
 
 This website is a fun game that I used to play with friends which is an advanced version of rock paper scissors which adds many new choices for the player and is more fun than original rock paper scissors.
 

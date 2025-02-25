@@ -226,5 +226,7 @@ This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic gam
 
 The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
 
+# Please note that when looking at the commits, if the message is something like 'Update script.js', please click into the commit as the comments may be left as a extended description
+
 
 

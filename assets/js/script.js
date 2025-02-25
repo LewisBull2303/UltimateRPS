@@ -43,7 +43,6 @@ const replayButton = document.getElementById("play-again"); // Play again button
 
 let remainingRounds = 0; // Logs remaining rounds
 
-var text = rounds.options[rounds.selectedIndex].text;
 let playerScore = 0; // Player score tracker
 let computerScore = 0; // Computer score tracker
 
@@ -57,10 +56,7 @@ submitDropDown.addEventListener("click", (event) => {
   // Hide elements that are not needed
   const disableHide = document.getElementsByClassName("hide-element");
   while (disableHide.length) {
-    disableHide[0].className = disableHide[0].className.replace(
-      /\bhide-element\b/g,
-      "",
-    );
+    disableHide[0].className = disableHide[0].className.replace(/\bhide-element\b/g, "");
   }
   gamePage(); // Go to the game page
 });
@@ -116,9 +112,7 @@ function playGame(playerChoice) {
           computerChoice === "Tree🌲" ||
           computerChoice === "Human🧍" ||
           computerChoice === "Snake🐍" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!" : "You Lose!";
         break;
       case "Fire🔥":
         result =
@@ -128,9 +122,7 @@ function playGame(playerChoice) {
           computerChoice === "Tree🌲" ||
           computerChoice === "Wolf🐺" ||
           computerChoice === "Sponge🧽" ||
-          computerChoice === "Paper✋"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Paper✋" ? "You Win!" : "You Lose!";
         break;
       case "Scissors✌":
         result =
@@ -140,9 +132,7 @@ function playGame(playerChoice) {
           computerChoice === "Tree🌲" ||
           computerChoice === "Human🧍" ||
           computerChoice === "Snake🐍" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Snake🐍":
         result =
@@ -152,9 +142,7 @@ function playGame(playerChoice) {
           computerChoice === "Tree🌲" ||
           computerChoice === "Human🧍" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Human🧍":
         result =
@@ -164,9 +152,7 @@ function playGame(playerChoice) {
           computerChoice === "Tree🌲" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Tree🌲":
         result =
@@ -176,9 +162,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Wolf🐺":
         result =
@@ -188,9 +172,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Sponge🧽":
         result =
@@ -200,9 +182,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Paper✋":
         result =
@@ -212,9 +192,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Air💨"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Air💨" ? "You Win!" : "You Lose!";
         break;
       case "Air💨":
         result =
@@ -224,9 +202,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Water🌊" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!" : "You Lose!";
         break;
       case "Water🌊":
         result =
@@ -236,9 +212,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Dragon🐉" ||
           computerChoice === "Scissors✌" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!" : "You Lose!";
         break;
       case "Dragon🐉":
         result =
@@ -248,9 +222,7 @@ function playGame(playerChoice) {
           computerChoice === "Devil😈" ||
           computerChoice === "Snake🐍" ||
           computerChoice === "Scissors✌" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!" : "You Lose!";
         break;
       case "Devil😈":
         result =
@@ -260,9 +232,7 @@ function playGame(playerChoice) {
           computerChoice === "Human🧍" ||
           computerChoice === "Snake🐍" ||
           computerChoice === "Scissors✌" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!" : "You Lose!";
         break;
       case "Lightning⚡":
         result =
@@ -272,9 +242,7 @@ function playGame(playerChoice) {
           computerChoice === "Human🧍" ||
           computerChoice === "Snake🐍" ||
           computerChoice === "Scissors✌" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!": "You Lose!";
         break;
       case "Gun🔫":
         result =
@@ -284,9 +252,7 @@ function playGame(playerChoice) {
           computerChoice === "Human🧍" ||
           computerChoice === "Snake🐍" ||
           computerChoice === "Scissors✌" ||
-          computerChoice === "Fire🔥"
-            ? "You Win!"
-            : "You Lose!";
+          computerChoice === "Fire🔥" ? "You Win!": "You Lose!";
         break;
     }
 
@@ -320,7 +286,7 @@ function playGame(playerChoice) {
   replayButton.addEventListener("click", () => {
     resultDisplay.textContent = "";
     startGameElements.forEach((element) =>
-      element.classList.add("hide-element"),
+      element.classList.add("hide-element")
     );
 
     homePage();
@@ -372,7 +338,7 @@ function playGame(playerChoice) {
 // Options button event listener
 optionsButton.addEventListener("click", () => {
   optionsElements.forEach((element) =>
-    element.classList.remove("hide-element"),
+    element.classList.remove("hide-element")
   );
   roundsOutput.classList.add("hide-element");
   submitDropDown.classList.add("hide-element");
@@ -436,7 +402,7 @@ function homePage() {
 function gamePage() {
   // All elements on the game page, so unhide them
   startGameElements.forEach((element) =>
-    element.classList.remove("hide-element"),
+    element.classList.remove("hide-element")
   );
   backButton.classList.remove("hide-element");
   gameButtonsContainer.classList.remove("hide-element");

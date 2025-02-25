@@ -269,6 +269,7 @@ The following devices were used to test if Ultimate Rock Paper Scissors:
  - Samsung Galaxy Tablet A8 (Simulated)
  - Surface Pro 7 (Simulated)
  - ASUS Zenbook Fold (Simulated)
+
 The following browsers were tested for compatibility, All Browsers were full compatible:
  - Google Chrome (Fully Compatible)
  - Microsoft Edge (Fully Compatible)

@@ -177,14 +177,24 @@ My wireframe concept was a single page, which would have everything that the use
 -  On the home page I have added a button which will take the player to a how to play section
 -  The button was made a neon red colour which is standard in my game for objects that can be clicked/interacted with.
 -  It is fully responsive on all screens sizes and is located on the home page
--  User Stories Answered: 4, 17
+-  User Stories Answered: 4, 12, 17
 
 ![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
 
-- ###How to play Page 
+- ### How to play Page
+-  When the user clicked on the how to play button it takes them to the how to play page.
+-  This page has a small sentence intructing the user on what to do.
+-  The page also has an image on it which allows the user to see what options beat what.
+-  At the bottom of the page there is the back buttonm, which takes the user back to the home page.
+-  All of the items on this page are fully responsive and work on all screen sizes. This page is located on the how to play page.
+-  User Stories Answered: 2, 3, 4, 17
 ![image](https://github.com/user-attachments/assets/54d846a6-63d2-42af-84cf-73aef22c27f6)
 
 - ### Back Button
+-  At the bottom of the how to play page there is the back button.
+-  This button takes the user back to the home page and allows them to continue playing the game
+-  This button is fully responsive and works on all screen sizes. This button is located on the how to play page.
+-  User Stories Answered: 2, 3, 4, 12, 13, 17
 
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 

@@ -174,6 +174,20 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/d7a18db6-0d7a-471d-aa26-c8a21d23bd3d)
 
 
+
+![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
+
+![image](https://github.com/user-attachments/assets/54d846a6-63d2-42af-84cf-73aef22c27f6)
+
+![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
+
+![image](https://github.com/user-attachments/assets/9fa690e6-bdbb-4b74-9e32-44428aad55da)
+
+![image](https://github.com/user-attachments/assets/4f8cb206-0abc-40a2-8c6b-e65b55b723ec)
+
+![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
+
+
 ## Testing
 
  - I tested that this page works in different browsers: Edge, Firefox Chrome, Safari and OperaGX

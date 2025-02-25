@@ -202,6 +202,13 @@ My wireframe concept was a single page, which would have everything that the use
 -   No errors were returned when passing throuhg the official Jigsaw CSS Validator
 ![image](https://github.com/user-attachments/assets/d2ac0583-787a-4575-8652-a93c73053c31)
 
+Javascript Validator
+ - Passed my script.js through the JSHint validator, It passed with one issue, Which is one unused function. This is not unused as this is called when the user clicks a choice on the game page, however that is not on the Javascript and done on the HTML, proof is in the image below:
+![image](https://github.com/user-attachments/assets/50459577-fc2f-486a-899e-263f4ec1c42d)
+
+Proof of using the playGame Function:
+![image](https://github.com/user-attachments/assets/5281a3e4-e412-4cd6-8bf9-c41135b1fdbd)
+
 - Accessibility
 -   I confirmed that the colors and fonts chose are easy to read and accessible by running it through lighthouse in devtools
 ![image](https://github.com/user-attachments/assets/7948c453-0c23-49ca-b2cf-9d82f2495ca9)

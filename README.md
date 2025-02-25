@@ -199,15 +199,26 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 
 - ### Social Media Links
-
+-  At the bottom of all pages there are social media links.
+-  These were implimented so the user can contact me through my social medias.
+-  There are 3 buttons with the correct links to my Instagram, LinkedIn and Github
+-  These buttons are fully responsive and works on all screen sizes. These buttons are located on every page
+-  User Stories Answered: 4, 10, 12, 14
 ![image](https://github.com/user-attachments/assets/9fa690e6-bdbb-4b74-9e32-44428aad55da)
 
 - ### Home Page Button
-
+-  When the user loads the Game page the Home Page button will appear.
+-  This allows the user to head back to the home page all all different pages.
+-  When this button is clicked the users game progress is saved and they can then continue their game if they want
+-  This button is fully functional and responsive, it works across all screen sizes. This button is located on the Main Game Page
+-  User Stories Answered: 3, 4, 5, 6, 11, 12, 13, 
 ![image](https://github.com/user-attachments/assets/4f8cb206-0abc-40a2-8c6b-e65b55b723ec)
 
 - ### Continue Button
-
+-  When the User clicks the home page button the Continue button will appear,
+-  If the user clicks the continue button they will be able to continue their game from where they left off with the same score and rounds left.
+-  The continue button is full functional and responsive. It is located on the Home Page after the user clicks the homepage button. It works across all screen sizes
+-  User Stories Answered: 4, 5, 6, 11, 12, 13
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
 
 

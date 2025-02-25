@@ -126,6 +126,7 @@ My wireframe concept was a single page, which would have everything that the use
  - [Visual Studio Code](https://code.visualstudio.com/) - To create and edit the source code for this project
  - [Font Awesome](https://fontawesome.com/) - To add icons to my project
  - [FontShare](https://www.fontshare.com/) - To find my base font for my project
+ - [Prettier] (https://prettier.io/) - To make my JavaScript code more compatible and more like the industry standard
 
 ## Features
 

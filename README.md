@@ -592,7 +592,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 ![image](https://github.com/user-attachments/assets/d1a0fdac-47d8-4812-8ea3-98cc9d4e6bdc)
 ![image](https://github.com/user-attachments/assets/0ea8f1c6-c790-49e5-84bb-891dec6d2bdb)
 ![image](https://github.com/user-attachments/assets/9faea6a1-5bb3-470d-ba9c-d9130e0f6b52)
-![image](https://github.com/user-attachments/assets/609b0e93-4fb2-4311-9ebf-4888e592fbf8)
+![image](https://github.com/user-attachments/assets/92e1532e-566b-4fcd-85e9-41e1e6961c49)
 ![image](https://github.com/user-attachments/assets/3db07560-e491-4fab-8ee1-b4044af299d0)
 ![image](https://github.com/user-attachments/assets/471f11ec-5ad6-4e83-bdf3-08cdba57c133)
 ![image](https://github.com/user-attachments/assets/69a79f1a-2111-4cb4-a9c8-aca38a9fbfdc)

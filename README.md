@@ -734,6 +734,7 @@ You can clone the repository by following these steps:
 Fontawesome - For icons on my project
 Fonts provided by Fontshare
 This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic game - https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+Grammerly for helping me with spelling and grammer mistakes
 
 ## Acknowledgements:
 

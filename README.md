@@ -517,17 +517,20 @@ The following browsers were tested for compatibility; all browsers were fully co
 ## Testing User Stories
 
 1. As a user, I want to be able to select the number of rounds.
+
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Round Select bar|When the user opens the site there is text asking them to select the number of rounds and it indicated to the rounds dropdown menu|The user clicks on the dropdown menu and can select up to 8 rounds of gameplay|All works as expected|
 
 2. As a user, I want to have a guide on how to play.
+
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |How to play button|Added a button which takes the user to the how to play page|When clicked, the button takes the user to the how to play guide|All works as expected|
 |How to play page|Added a page with text explaining how to play and an image on which choices beat each other|When the user clicks the how to play button the how to play page will load correctly|All works as expected|
 
 3. As a user, I want to be able to go back to the home page whenever I want.
+
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Back Button|Added a button to go back to the home page after viewing the how to play page|The back button will take the user to the home page|All works as expected|

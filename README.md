@@ -412,7 +412,7 @@ My wireframe concept was a single page, which would have everything that the use
 <details>
  <summary>Images</summary>
  
-![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
+![image](https://github.com/user-attachments/assets/be3c8c8b-45b8-401b-aa14-c5e50813988c)
 
 </details>
 </br>

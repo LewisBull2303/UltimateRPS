@@ -550,7 +550,10 @@ The following browsers were tested for compatibility; all browsers were fully co
 |How to play Button|Made the how to play button centered so it looks good on all screens|The how to play button looks good on all screens|All working as expected|
 |How to play page|Made the Image and text smaller when the screen shrinks|All elements on the How to play screen will get smaller|All working as expected|
 |Back Button|Made the back button centered so it looks good on all screen sizes|The Button will stay in the middle and look good across all screen sizes|All working as expected|
-
+|Social Media Buttons|On all pages there are 3 buttons that take the user to different social medias, they have media queiries to make them look better on smaller screens|The buttons will go from flex-direction row to flex-direction column|All working as expected|
+|Home page Button|Made the home page button centered so It will look good on all screen sizes|The button will look good and correct on all screens|All working as expected|
+|Continue Button|The continue button has styles so its centered and will look good on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
+|New Game Button|The new game button has the same styles as the continue button and will look correct on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 
 ## Deployment
 

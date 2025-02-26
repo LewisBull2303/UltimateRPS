@@ -240,10 +240,10 @@ My wireframe concept was a single page, which would have everything that the use
 ## Bugs
 |What was the Bug?|What was the Fix?|
 |---|---|
-|There was a bug where the text for the result did not update to gree or red when the user won or lost| I fixed this by making the red-Text and green-Text class which I can remove and add when needed|
-|The Remaining rounds were not updating when the user got a tie|Fixed bu changing where remaining rounds gets updated which fixed the issue|
-|The select bar was larger than the screen size on smaller screens|Setting the select bar to 75% width whuch ensure it says the correct size|
-|The Continue button would not keep the number of rounds|Made sure to reset the number of rounds when the contiue button was clicked to equal the remainging rounds again|
+|There was a bug where the text for the result did not update to green or red when the user won or lost.| I fixed this by making the red-Text and green-Text class which I can remove and add when needed|
+|The Remaining rounds were not updating when the user got a tie|I fixed this by changing where the remaining rounds get updated, which resolved the issue.|
+|The select bar was larger than the screen size on smaller screens|I set the select bar to 75% width, which ensures it stays the correct size.|
+|The Continue button would not keep the number of rounds|I made sure to reset the number of rounds when the continue button was clicked to match the remaining rounds again.|
 |The new game button would not change the score back|Updated the code to reset the score and the player choices so it looks like a new game|
   
 ## Validator Testing

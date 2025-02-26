@@ -12,9 +12,9 @@ This website is made for game enthusiasts and people who enjoy learning new vers
 
 ## Table of Content
 
-1. [Project Goals](##Project-Goals)
-    - [User Goals](###user-goals)
-    - [Site Goals](###site-goals)
+1. [Project Goals](#Project-Goals)
+    - [User Goals](#user-goals)
+    - [Site Goals](#site-goals)
 2. [User Experience](##user-experience)
     - [Target Audience](###target-audience)
     - [User Requirements and Expectations](###user-requirements-and-expectations)

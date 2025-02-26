@@ -6,8 +6,9 @@
     <title>Ultimate RPS</title>
     <!-- Favicon for the game -->
     <link rel="icon" type="icon/x-icon" href="https://raw.githubusercontent.com/LewisBull2303/UltimateRPS/refs/heads/main/assets/images/favicon.ico">
-    <!-- Link to external CSS file -->
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Link to FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -16,6 +17,7 @@
         <h1>Ultimate Rock Paper Scissors!!!!</h1>
         <!-- Display for the remaining rounds -->
         <p id="rounds-output"></p>
+        
         <!-- Round selection container -->
         <div class="container" id="rounds-select">
             <form action="#">
@@ -35,10 +37,10 @@
                     </select>
                 </div>
                 <!-- Submit button to start the game -->
-                 <div class="continue-container">
-                     <button class="btn" id="submit">Submit</button>
-                     <button class="btn hide-element" id="newGame">New Game</button>
-                 </div>
+                <div class="continue-container">
+                    <button class="btn" id="submit">Submit</button>
+                    <button class="btn hide-element" id="newGame">New Game</button>
+                </div>
             </form>
         </div>
 
@@ -98,6 +100,8 @@
         <div class="container play-again-container hide-element start-game-element">
             <button class="btn" id="play-again">Play Again?</button>
         </div>
+        
+        <!-- Instructions and game explanation -->
         <div>
             <h1 class="options-element hide-element options-header">How to play</h1>
             <p class="options-element hide-element">Below is the full chart on how to play Ultimate Rock Paper Scissors <br>
@@ -107,10 +111,14 @@
         <div class="options-container">
             <img src="https://iili.io/2bvdC91.jpg" class='options-element hide-element' id='gameplay-instructions' alt="">
         </div>
+
+        <!-- How to play button and back button -->
         <div class="container">
             <button class="btn" id="options">How to Play</button>
             <button class="btn hide-element" id="optionsBack">Back</button>
         </div>
+
+        <!-- Social Media Links -->
         <div class="container">
             <h3>Social Media Links:</h3>
         </div>
@@ -119,6 +127,8 @@
             <a href="https://www.instagram.com/l._.bull/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/lewis-bull-3a465a229/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
         </div>
+        
+        <!-- Back to home page button -->
         <div class="container">
             <button class="btn hide-element" id="backButton">Home Page</button>
         </div>

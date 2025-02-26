@@ -420,30 +420,46 @@ My wireframe concept was a single page, which would have everything that the use
 - HTML
 
 - No errors were returned when passing through the W3C validator. One warning was returned; however, this is for a header that is updated and JavaScript, so the header needs to remain blank for the code to run correctly.
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/18bbb38d-b83c-4852-b709-e8e8f49c0be5)
+
+</details>
 
 - CSS
 
 - No errors were returned when passing through the official Jigsaw CSS Validator.
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/d2ac0583-787a-4575-8652-a93c73053c31)
+
+</details>
 
 JavaScript Validator
 
  - Passed my script.js through the JSHint validator. It passed with one issue, which is one unused function. This is not unused, as this is called when the user clicks a choice on the game page; however, that is not on the Javascript and is done on the HTML. Proof is in the image below:
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/50459577-fc2f-486a-899e-263f4ec1c42d)
 
 Proof of using the playGame function:
 
 ![image](https://github.com/user-attachments/assets/5281a3e4-e412-4cd6-8bf9-c41135b1fdbd)
 
+</details>
+
 - Accessibility
 
 - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through Lighthouse in DevTools.
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/7948c453-0c23-49ca-b2cf-9d82f2495ca9)
+
+</details>
 
 ## Testing across Different Devices
 

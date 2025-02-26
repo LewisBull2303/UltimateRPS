@@ -208,7 +208,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/LewisBull2303/UltimateRPS/blob/main/docs/features/Dropdown%20Bar%20Feature.png?raw=true)
 
 </details>
-
+</br>
 
 - ### Game Buttons
 

@@ -1,8 +1,8 @@
 # Ultimate Rock Paper Scissors
 
-This website is a fun game that I used to play with friends which is an advanced version of rock paper scissors which adds many new choices for the player and is more fun than original rock paper scissors.
+This website is a fun game that I used to play with friends it is an advanced version of Rock Paper Scissors which adds many new choices for the player and is more fun than original.
 
-This website is made for game enthusiasts and people that enjoy learning new versions of classic games.
+This website is made for game enthusiasts and people who enjoy learning new versions of classic games.
 
 ![image](https://github.com/user-attachments/assets/39d47386-772c-4d6b-a8ce-cd6b6d2ee863)
 
@@ -16,21 +16,21 @@ The goal of this project is to create a new and exciting take on the classic gam
 - To play a different and unique game.
 - To have a limited amount of rounds to determine the winner.
 - To be able to choose from many different options.
-- To be replayble and fun.
+- To be replayable and fun.
 - To make me want to come back and play more.
 
 ## Site Goals
 - Provide an enjoyable and fun game to users.
 - To allow the user to select different rounds for different degrees of difficulty.
-- To provide compatability across all screen sizes.
+- To provide compatibility across all screen sizes.
 - To provide an option for the users to contact me via social media.
 
 ## Users Experience
 
-### Target Audiance
+### Target Audience
 - Users who enjoy rock, paper, scissors.
 - Users who enjoy playing games.
-- Users that like chance style games.
+- Users that like chance-style games.
 
 ### User Requirements and Expectations
 - Guide on how to play.

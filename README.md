@@ -218,9 +218,16 @@ My wireframe concept was a single page, which would have everything that the use
 - ### Continue Button
 -  When the User clicks the home page button the Continue button will appear,
 -  If the user clicks the continue button they will be able to continue their game from where they left off with the same score and rounds left.
--  The continue button is full functional and responsive. It is located on the Home Page after the user clicks the homepage button. It works across all screen sizes
+-  The continue button is fully functional and responsive. It is located on the Home Page after the user clicks the homepage button. It works across all screen sizes
 -  User Stories Answered: 4, 5, 6, 11, 12, 13
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
+
+- ### New Game Button
+-  When the user clicks on the home page there will be another button next to the continue button called New Game
+-  This button allows the user to go back to the home page and start a new game if they want
+-  The New Game button is fully functional and responsive. It is located on the Home Page after the user clicks the home page button. It works across all screen sizes
+-  User Stories Answered: 3, 4, 5, 6, 11, 12, 13
+![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
 
 
 ## Testing

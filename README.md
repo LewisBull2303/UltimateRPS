@@ -8,6 +8,12 @@ This website is made for game enthusiasts and people who enjoy learning new vers
 
 ![image](https://github.com/user-attachments/assets/5e4d1155-be64-48c9-ba63-7eb69960b119)
 
+[Deployed Project](https://lewisbull2303.github.io/UltimateRPS/)
+
+## Table of Content
+
+1.[Project Goals](## Project Goals)
+
 ## Project Goals
 
 The goal of this project is to create a new and exciting take on the classic game rock, paper, scissors.

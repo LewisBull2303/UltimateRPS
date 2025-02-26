@@ -313,7 +313,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - All of the items on this page are fully responsive and work on all screen sizes. This page is located on the how to play page.
 
-  - User Stories Answered: 2, 3, 4, 17
+  - User Stories Answered: 2, 4, 17
 
 <details>
  <summary>Images</summary>
@@ -513,6 +513,27 @@ The following browsers were tested for compatibility; all browsers were fully co
  - I confirmed that all text is easy to read and has correct spelling and grammar in places where needed.
 
  - I have confirmed that all buttons function as intended.
+
+## Testing User Stories
+
+1. As a user, I want to be able to select the number of rounds.
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Round Select bar|When the user opens the site there is text asking them to select the number of rounds and it indicated to the rounds dropdown menu|The user clicks on the dropdown menu and can select up to 8 rounds of gameplay|All works as expected|
+
+2. As a user, I want to have a guide on how to play.
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|How to play button|Added a button which takes the user to the how to play page|When clicked, the button takes the user to the how to play guide|All works as expected|
+|How to play page|Added a page with text explaining how to play and an image on which choices beat each other|When the user clicks the how to play button the how to play page will load correctly|All works as expected|
+
+3. As a user, I want to be able to go back to the home page whenever I want.
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Back Button|Added a button to go back to the home page after viewing the how to play page|The back button will take the user to the home page|All works as expected|
+|Home Button|Added a button on the game page to take the user back to the home page|The home button will take the user back to the home page|All works as expected|
+|New Game Button|When the user clicks the home button it will ask them if they want to continue or create a new game, If the play clicks the new game button it will take them back to the home page|The new game button takes the user back to the home page|All works as expected|
+|Play again button|On the end page, there is a button called play again which takes the user back to the home page|The play again button will take the user back to the home page|All working as expected|
 
 ## Deployment
 

@@ -208,41 +208,41 @@ My wireframe concept was a single page, which would have everything that the use
 
 - ### Game Buttons
 
--   The game buttons are clear and concise, easily allowing the user to see exactly which option they are picking.
+ -   The game buttons are clear and concise, easily allowing the user to see exactly which option they are picking.
 
--   The colours were chosen to allow the buttons to pop in contrast to the background; I also added a glow to the buttons to make them more appealing.
+ -   The colours were chosen to allow the buttons to pop in contrast to the background; I also added a glow to the buttons to make them more appealing.
 
--   The buttons also include emojis to give the game a more modern look and bring out the character of each option.
+ -   The buttons also include emojis to give the game a more modern look and bring out the character of each option.
 
--   It is fully responsive on all screen sizes and is located on the game page.
+ -   It is fully responsive on all screen sizes and is located on the game page.
 
--   User Stories Answered: 4, 5, 6, 7, 11, 12, 16
+ -   User Stories Answered: 4, 5, 6, 7, 11, 12, 16
 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
 
 - ### Player and Computer Score
 
--   Underneath the game buttons is a player score, which allows the user to track their score easily.
+ -   Underneath the game buttons is a player score, which allows the user to track their score easily.
 
--   The score section also has a space for the computer's score, which allows the user to see if they are winning or losing.
+ -   The score section also has a space for the computer's score, which allows the user to see if they are winning or losing.
 
--   The score appears in green to the user and red for the computer to easily differentiate the 2 different scores.
+ -   The score appears in green to the user and red for the computer to easily differentiate the 2 different scores.
 
--   It is fully responsive on all screen sizes and is located on the game page.
+ -   It is fully responsive on all screen sizes and is located on the game page.
 
--   User Stories Answered: 4, 5, 8, 9, 12, 18
+ -   User Stories Answered: 4, 5, 8, 9, 12, 18
 
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
 - ### Player and Computer Choices
 
--   Just above the score area, there is an area that shows the user what they picked and what the computer picked for their options.
+ -   Just above the score area, there is an area that shows the user what they picked and what the computer picked for their options.
 
--   This allows the user to see which option wins against others, allowing them to pick up on the rules easier.
+ -   This allows the user to see which option wins against others, allowing them to pick up on the rules easier.
 
--   It is fully responsive on all screen sizes and is located on the game page.
+ -   It is fully responsive on all screen sizes and is located on the game page.
 
--   User Stories Answered: 4, 12
+ -   User Stories Answered: 4, 12
 
   
 
@@ -250,15 +250,15 @@ My wireframe concept was a single page, which would have everything that the use
 
 - ### Play Again Button
 
--   When the player has completed all the rounds they selected, the play again button will appear.
+ -   When the player has completed all the rounds they selected, the play again button will appear.
 
--   This button allows the player to return to the start of the game and try again; the player can re-select the amount of rounds that they want to do.
+ -   This button allows the player to return to the start of the game and try again; the player can re-select the amount of rounds that they want to do.
 
--   The button has similar styling to the other so the user can easily understand that it is an interactable object.
+ -   The button has similar styling to the other so the user can easily understand that it is an interactable object.
 
--   It is fully responsive on all screen sizes and is located on the Win/Draw/Lose Page.
+ -   It is fully responsive on all screen sizes and is located on the Win/Draw/Lose Page.
 
--   User Stories Answered: 3, 4, 6, 11, 12, 
+ -   User Stories Answered: 3, 4, 6, 11, 12, 
 
   
 
@@ -266,93 +266,93 @@ My wireframe concept was a single page, which would have everything that the use
 
 - ### How to Play Button
 
--  On the home page I have added a button which will take the player to a how to play section
+ -  On the home page I have added a button which will take the player to a how to play section
 
--  The button was made a neon red colour, which is standard in my game for objects that can be clicked/interacted with.
+ -  The button was made a neon red colour, which is standard in my game for objects that can be clicked/interacted with.
 
--  It is fully responsive on all screen sizes and is located on the home page.
+ -  It is fully responsive on all screen sizes and is located on the home page.
 
--  User Stories Answered: 4, 12, 17
+ -  User Stories Answered: 4, 12, 17
 
 ![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
 
 - ### How to play Page
 
--  When the user clicked on the How to Play button, it took them to the How to Play page.
+ -  When the user clicked on the How to Play button, it took them to the How to Play page.
 
--  This page has a small sentence instructing the user on what to do.
+ -  This page has a small sentence instructing the user on what to do.
 
--  The page also has an image on it, which allows the user to see what options beat what.
+ -  The page also has an image on it, which allows the user to see what options beat what.
 
--  At the bottom of the page, there is the back button, which takes the user back to the home page.
+ -  At the bottom of the page, there is the back button, which takes the user back to the home page.
 
--  All of the items on this page are fully responsive and work on all screen sizes. This page is located on the how to play page.
+ -  All of the items on this page are fully responsive and work on all screen sizes. This page is located on the how to play page.
 
--  User Stories Answered: 2, 3, 4, 17
+ -  User Stories Answered: 2, 3, 4, 17
 
 ![image](https://github.com/user-attachments/assets/54d846a6-63d2-42af-84cf-73aef22c27f6)
 
 - ### Back Button
 
--  At the bottom of the How to Play page, there is the back button.
+ -  At the bottom of the How to Play page, there is the back button.
 
--  This button takes the user back to the home page and allows them to continue playing the game.
+ -  This button takes the user back to the home page and allows them to continue playing the game.
 
--  This button is fully responsive and works on all screen sizes. This button is located on the how to play page.
+ -  This button is fully responsive and works on all screen sizes. This button is located on the how to play page.
 
--  User Stories Answered: 2, 3, 4, 12, 13, 17
+ -  User Stories Answered: 2, 3, 4, 12, 13, 17
 
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 
 - ### Social Media Links
 
--  At the bottom of all pages, there are social media links.
+ -  At the bottom of all pages, there are social media links.
 
--  These were implemented so the user can contact me through my social media.
+ -  These were implemented so the user can contact me through my social media.
 
--  There are 3 buttons with the correct links to my Instagram, LinkedIn and Github
+ -  There are 3 buttons with the correct links to my Instagram, LinkedIn and Github
 
--  These buttons are fully responsive and work on all screen sizes. These buttons are located on every page.
+ -  These buttons are fully responsive and work on all screen sizes. These buttons are located on every page.
 
--  User Stories Answered: 4, 10, 12, 14
+ -  User Stories Answered: 4, 10, 12, 14
 
 ![image](https://github.com/user-attachments/assets/9fa690e6-bdbb-4b74-9e32-44428aad55da)
 
 - ### Home Page Button
 
--  When the user loads the game page, the Home Page button will appear.
+ -  When the user loads the game page, the Home Page button will appear.
 
--  This allows the user to head back to the home page and all different pages.
+ -  This allows the user to head back to the home page and all different pages.
 
--  When this button is clicked the users game progress is saved and they can then continue their game if they want
+ -  When this button is clicked the users game progress is saved and they can then continue their game if they want
 
--  This button is fully functional and responsive; it works across all screen sizes. This button is located on the Main Game Page.
+ -  This button is fully functional and responsive; it works across all screen sizes. This button is located on the Main Game Page.
 
--  User Stories Answered: 3, 4, 5, 6, 11, 12, 13, 
+ -  User Stories Answered: 3, 4, 5, 6, 11, 12, 13, 
 
 ![image](https://github.com/user-attachments/assets/4f8cb206-0abc-40a2-8c6b-e65b55b723ec)
 
 - ### Continue Button
 
--  When the user clicks the home page button, the Continue button will appear.
+ -  When the user clicks the home page button, the Continue button will appear.
 
--  If the user clicks the continue button, they will be able to continue their game from where they left off with the same score and rounds left.
+ -  If the user clicks the continue button, they will be able to continue their game from where they left off with the same score and rounds left.
 
--  The continue button is fully functional and responsive. It is located on the home page after the user clicks the homepage button. It works across all screen sizes.
+ -  The continue button is fully functional and responsive. It is located on the home page after the user clicks the homepage button. It works across all screen sizes.
 
--  User Stories Answered: 4, 5, 6, 11, 12, 13
+ -  User Stories Answered: 4, 5, 6, 11, 12, 13
 
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
 
 - ### New Game Button
 
--  When the user clicks on the home page there will be another button next to the continue button called New Game
+ -  When the user clicks on the home page there will be another button next to the continue button called New Game
 
--  This button allows the user to go back to the home page and start a new game if they want.
+ -  This button allows the user to go back to the home page and start a new game if they want.
 
--  The New Game button is fully functional and responsive. It is located on the home page after the user clicks the home page button. It works across all screen sizes.
+ -  The New Game button is fully functional and responsive. It is located on the home page after the user clicks the home page button. It works across all screen sizes.
 
--  User Stories Answered: 3, 4, 5, 6, 11, 12, 13
+ -  User Stories Answered: 3, 4, 5, 6, 11, 12, 13
 
 ![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
 

@@ -238,15 +238,13 @@ My wireframe concept was a single page, which would have everything that the use
  - I have confimed that all buttons fucntion as intended.
 
 ## Bugs
-
-- There was a bug where the text for the result did not update to green or red when the user won or lost and would remain one color
-- I fixed this by making the red-Text and green-Text class which gets removed and added when needed
-  
-- There was another bug with the remaining rounds not updating when the user got a tie
-- This bug was fixed by changing where remaing rounds gets updated which meant that the update happened everytime the buttons were clicked
-  
-- Another bug was that the select bar was larger than the screen size when on small screen sizes
-- I fixed this by setting the select bar to 75% width which ensured that the bar remained at a good size no matter the screen size
+|What was the Bug?|What was the Fix?|
+|---|---|
+|There was a bug where the text for the result did not update to gree or red when the user won or lost| I fixed this by making the red-Text and green-Text class which I can remove and add when needed|
+|The Remaining rounds were not updating when the user got a tie|Fixed bu changing where remaining rounds gets updated which fixed the issue|
+|The select bar was larger than the screen size on smaller screens|Setting the select bar to 75% width whuch ensure it says the correct size|
+|The Continue button would not keep the number of rounds|Made sure to reset the number of rounds when the contiue button was clicked to equal the remainging rounds again|
+|The new game button would not change the score back|Updated the code to reset the score and the player choices so it looks like a new game|
   
 ## Validator Testing
 

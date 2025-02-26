@@ -239,7 +239,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - It is fully responsive on all screen sizes and is located on the game page.
 
-  - User Stories Answered: 4, 5, 8, 9, 12, 18
+  - User Stories Answered: 4, 5, 6, 8, 9, 12, 18
 <details>
  <summary>Images</summary>
  
@@ -256,7 +256,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - It is fully responsive on all screen sizes and is located on the game page.
 
-  - User Stories Answered: 4, 12
+  - User Stories Answered: 4, 9,  12
 <details>
  <summary>Images</summary>
  
@@ -371,7 +371,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - This button is fully functional and responsive; it works across all screen sizes. This button is located on the Main Game Page.
 
-  - User Stories Answered: 3, 4, 6, 11, 12, 13, 
+  - User Stories Answered: 3, 4, 11, 12, 13, 
 
 <details>
  <summary>Images</summary>
@@ -389,7 +389,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - The continue button is fully functional and responsive. It is located on the home page after the user clicks the homepage button. It works across all screen sizes.
 
-  - User Stories Answered: 4, 5, 6, 11, 12, 13
+  - User Stories Answered: 4, 5, 11, 12, 13
 
 <details>
  <summary>Images</summary>
@@ -563,6 +563,41 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Player and Computer Score|The score will increase to make the game more enjoyable|The score changing makes the game more fun and competitive|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
 |Continue Button|I created a continue button to allow the player to keep playing which is more fun|The continue button will allow the player to continue where they left off and keep playing which is more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
 |New Game Button|I created a new game button to allow the player to start a new game if the game they are playing is not fun|The new game button allows the user to start again making the game more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
+
+6. As a user, I want the game to be replayable.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Dropdown Bar|I made the dropdown bar have multiple choices to encourage trying them all to the user|The multiple amounts of rounds will encourage the user to try all of the round amounts and increase replayability|It does make the game more replayable and all works as intended|
+|Game Buttons|I made multiple choices for the game buttons to encourage the user to try them all|The differnet buttons encourages the user to try all options increasing replayability|It does make the game more replayable and all works as intended|
+|Player and Computer Scors|I made a scoring system so the user gets achievement when they win and wants to try again when they lose|The outcome of the score will encourage the user to keep playing until they get the result they want|It makes the game more replayable and works as expected|
+|Play Again Button|I made a play again button on the win/lose/draw screen to encourage the user to the game again|The button will encourage users to keep playing after they win or lose or draw|All works as expected|
+|New Game Button|I made a button so the player can start a new game quickly to encourage the user to keep playing|The button will make user play the game more|All working as expected|
+
+7. As a user, I want to have many options to win.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Game Buttons|I made several buttons that the user can choose from which lets them have many options to win or lose from|The different buttons gives the user many avenues to win from|All working as expected|
+
+8. As a user, I want to see the score at the end of the game.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Player and Computer Scores|I made a scoring system so the user can see the score throughout the whole game|The scoring system gives the user a clear idea on their score at the end of the game|All working as expected|
+
+9. As a user, I want it to be clear if I won or lost.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Player and Computer Scores|If the player wins their score increases and if they lose the computers score increases|The score increments clearly shows if the user won or lost|
+|Player and Computer Choices|When the choices gets weighed by the logic, if the player wins the text will read "you won" and if they lost it will show "you lose". Additionally if the user wins the text will turn green and if they lose the text will turn red|The changing text will show clearly if the user wins or loses|All working as expected|
+
+10. As a user, I want to be able to contact the site maker.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Social Media Buttons|I added Social media buttons so that the user can contact me through there|The user will be able to click the buttons and be re-directed to my social media to contact me|All working as intended|
 
 ## Deployment
 

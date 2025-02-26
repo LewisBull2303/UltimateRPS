@@ -220,9 +220,12 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes and is located on the game page.
 
   - User Stories Answered: 4, 5, 6, 7, 11, 12, 16
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
-
+ 
+</details>
 - ### Player and Computer Score
 
   - Underneath the game buttons is a player score, which allows the user to track their score easily.
@@ -234,9 +237,12 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes and is located on the game page.
 
   - User Stories Answered: 4, 5, 8, 9, 12, 18
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
+</details>
 - ### Player and Computer Choices
 
   - Just above the score area, there is an area that shows the user what they picked and what the computer picked for their options.
@@ -246,11 +252,12 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes and is located on the game page.
 
   - User Stories Answered: 4, 12
-
-  
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/bc90dc1b-5268-43e2-8e8e-2350c9686c46)
 
+</details>
 - ### Play Again Button
 
   - When the player has completed all the rounds they selected, the play again button will appear.
@@ -262,11 +269,12 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes and is located on the Win/Draw/Lose Page.
 
   - User Stories Answered: 3, 4, 6, 11, 12, 
-
-  
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/d7a18db6-0d7a-471d-aa26-c8a21d23bd3d)
 
+</details>
 - ### How to Play Button
 
   - On the home page I have added a button which will take the player to a how to play section
@@ -276,9 +284,12 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes and is located on the home page.
 
   - User Stories Answered: 4, 12, 17
-
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
 
+</details>
 - ### How to play Page
 
   - When the user clicked on the How to Play button, it took them to the How to Play page.
@@ -293,8 +304,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 2, 3, 4, 17
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/54d846a6-63d2-42af-84cf-73aef22c27f6)
 
+</details>
 - ### Back Button
 
   - At the bottom of the How to Play page, there is the back button.
@@ -305,8 +320,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 2, 3, 4, 12, 13, 17
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 
+</details>
 - ### Social Media Links
 
   - At the bottom of all pages, there are social media links.
@@ -319,8 +338,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 4, 10, 12, 14
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/9fa690e6-bdbb-4b74-9e32-44428aad55da)
 
+</details>
 - ### Home Page Button
 
   - When the user loads the game page, the Home Page button will appear.
@@ -333,8 +356,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 3, 4, 5, 6, 11, 12, 13, 
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/4f8cb206-0abc-40a2-8c6b-e65b55b723ec)
 
+</details>
 - ### Continue Button
 
   - When the user clicks the home page button, the Continue button will appear.
@@ -345,8 +372,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 4, 5, 6, 11, 12, 13
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
 
+</details>
 - ### New Game Button
 
   - When the user clicks on the home page there will be another button next to the continue button called New Game
@@ -357,7 +388,12 @@ My wireframe concept was a single page, which would have everything that the use
 
   - User Stories Answered: 3, 4, 5, 6, 11, 12, 13
 
+<details>
+ <summary>Images</summary>
+ 
 ![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
+
+</details>
 
 ## Bugs
 

@@ -215,6 +215,7 @@ i{
 }
 
 .social-media-container{
+    text-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,6 +284,10 @@ i{
     .hide-element2{
         display: none;
     }
+    .social-media-container{
+        flex-direction: column;
+    }
+
 }
 
 /* XXS (extra small) */
@@ -304,6 +309,9 @@ i{
     }
     .container{
         text-align: center;
+    }
+    .social-media-container{
+        flex-direction: row;
     }
 }
 

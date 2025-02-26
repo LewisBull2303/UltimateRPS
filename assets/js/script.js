@@ -353,24 +353,15 @@ optionsButton.addEventListener("click", () => {
 // Options back button event listener
 optionsBack.addEventListener("click", () => {
   homePage();
+
+  continueGame()
 });
 
 // Back button event listener
 backButton.addEventListener("click", () => {
   homePage();
 
-  if (remainingRounds > 0) {
-    roundsOutput.textContent = `${remainingRounds}`;
-    selectElement.classList.add("hide-element");
-    submitDropDown.textContent = "Continue?";
-    newGameButton.classList.remove("hide-element")
-    submitDropDown.style.fontSize = "22px";
-    selectElement.value = remainingRounds;
-    roundsOutput.textContent = `${remainingRounds} Rounds Left`;
-    roundInstructions.textContent = "Would you like to continue?";
-  } else {
-    homePage();
-  }
+  continueGame()
 });
 
 newGameButton.addEventListener("click", () => {
@@ -438,4 +429,19 @@ function gamePage() {
   submitDropDown.classList.add("hide-element");
   newGameButton.classList.add("hide-element");
   roundsSelect.classList.add("hide-element");
+}
+
+function continueGame(){
+  if (remainingRounds > 0) {
+    roundsOutput.textContent = `${remainingRounds}`;
+    selectElement.classList.add("hide-element");
+    submitDropDown.textContent = "Continue?";
+    newGameButton.classList.remove("hide-element")
+    submitDropDown.style.fontSize = "22px";
+    selectElement.value = remainingRounds;
+    roundsOutput.textContent = `${remainingRounds} Rounds Left`;
+    roundInstructions.textContent = "Would you like to continue?";
+  } else {
+    homePage();
+  }
 }

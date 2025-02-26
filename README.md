@@ -522,12 +522,31 @@ The following browsers were tested for compatibility; all browsers were fully co
 |---|---|---|---|
 |Round Select bar|When the user opens the site there is text asking them to select the number of rounds and it indicated to the rounds dropdown menu|The user clicks on the dropdown menu and can select up to 8 rounds of gameplay|All works as expected|
 
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/c28198d1-ac56-4026-973b-ab3b80fbad5e)
+![image](https://github.com/user-attachments/assets/92939e44-d474-433f-923f-40e6545c9b02)
+
+
+</details>
+</br>
+
 2. As a user, I want to have a guide on how to play.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |How to play button|Added a button which takes the user to the how to play page|When clicked, the button takes the user to the how to play guide|All works as expected|
 |How to play page|Added a page with text explaining how to play and an image on which choices beat each other|When the user clicks the how to play button the how to play page will load correctly|All works as expected|
+
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/59b161f0-a9ab-4b78-829a-e380fa2878fa)
+![image](https://github.com/user-attachments/assets/e88deadf-7d96-4bc1-a461-a01c653745bc)
+
+</details>
+</br>
 
 3. As a user, I want to be able to go back to the home page whenever I want.
 
@@ -537,6 +556,18 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Home Button|Added a button on the game page to take the user back to the home page|The home button will take the user back to the home page|All works as expected|
 |New Game Button|When the user clicks the home button it will ask them if they want to continue or create a new game, If the play clicks the new game button it will take them back to the home page|The new game button takes the user back to the home page|All works as expected|
 |Play again button|On the end page, there is a button called play again which takes the user back to the home page|The play again button will take the user back to the home page|All working as expected|
+
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/25d384a8-2eab-43b3-8343-f1c0b04d54b6)
+![image](https://github.com/user-attachments/assets/148769de-76da-4f6e-a572-fe5de0d5a95d)
+![image](https://github.com/user-attachments/assets/9a3270dd-d108-4acb-ae8f-c353922c871d)
+![image](https://github.com/user-attachments/assets/c0493eae-e86d-42d9-a46b-23043db21956)
+![image](https://github.com/user-attachments/assets/9feff1b9-0002-464d-a134-fe8eeb01d534)
+
+</details>
+</br>
 
 4. As a user, I want to be able to play the game on any device.
 
@@ -555,6 +586,28 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Continue Button|The continue button has styles so its centered and will look good on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 |New Game Button|The new game button has the same styles as the continue button and will look correct on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/d1a0fdac-47d8-4812-8ea3-98cc9d4e6bdc)
+![image](https://github.com/user-attachments/assets/0ea8f1c6-c790-49e5-84bb-891dec6d2bdb)
+![image](https://github.com/user-attachments/assets/9faea6a1-5bb3-470d-ba9c-d9130e0f6b52)
+![image](https://github.com/user-attachments/assets/609b0e93-4fb2-4311-9ebf-4888e592fbf8)
+![image](https://github.com/user-attachments/assets/3db07560-e491-4fab-8ee1-b4044af299d0)
+![image](https://github.com/user-attachments/assets/471f11ec-5ad6-4e83-bdf3-08cdba57c133)
+![image](https://github.com/user-attachments/assets/69a79f1a-2111-4cb4-a9c8-aca38a9fbfdc)
+![image](https://github.com/user-attachments/assets/3b8f2074-9f41-481b-bd35-0a72adfcbe57)
+![image](https://github.com/user-attachments/assets/3a5f76bc-2208-4b0f-9801-68c9f5adfb85)
+![image](https://github.com/user-attachments/assets/cdb3a5d3-41fa-4d7c-8495-839da6f8b0af)
+![image](https://github.com/user-attachments/assets/cd69da8a-b033-46b8-a595-b7d1504d0bfe)
+![image](https://github.com/user-attachments/assets/35cc2bb7-a738-4ec6-a9de-e2020d17f348)
+![image](https://github.com/user-attachments/assets/bcd5c66d-49c5-4e22-be9c-b9a71aa22709)
+![image](https://github.com/user-attachments/assets/0d90323f-4f32-4d03-9bc5-2be277f2197a)
+![image](https://github.com/user-attachments/assets/ad8a1d05-9877-4e6d-9e95-0c068e240f24)
+
+</details>
+</br>
+
 5. As a user, I want to have the game be fun.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
@@ -563,6 +616,17 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Player and Computer Score|The score will increase to make the game more enjoyable|The score changing makes the game more fun and competitive|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
 |Continue Button|I created a continue button to allow the player to keep playing which is more fun|The continue button will allow the player to continue where they left off and keep playing which is more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
 |New Game Button|I created a new game button to allow the player to start a new game if the game they are playing is not fun|The new game button allows the user to start again making the game more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
+
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/61ba1b2b-66c2-4098-8d5d-9e43bb2b30e4)
+![image](https://github.com/user-attachments/assets/67416a7b-3c48-4191-998a-32da1d0ced03)
+![image](https://github.com/user-attachments/assets/0d6cd4b6-f048-42b2-a08d-54dc5efdf08c)
+![image](https://github.com/user-attachments/assets/cb05fb3b-b57d-4b4f-945f-2270f7d651a0)
+
+</details>
+</br>
 
 6. As a user, I want the game to be replayable.
 
@@ -574,11 +638,27 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Play Again Button|I made a play again button on the win/lose/draw screen to encourage the user to the game again|The button will encourage users to keep playing after they win or lose or draw|All works as expected|
 |New Game Button|I made a button so the player can start a new game quickly to encourage the user to keep playing|The button will make user play the game more|All working as expected|
 
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/66afbae0-f640-4bd7-ae2b-fd0742e44348)
+
+</details>
+</br>
+
 7. As a user, I want to have many options to win.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Game Buttons|I made several buttons that the user can choose from which lets them have many options to win or lose from|The different buttons gives the user many avenues to win from|All working as expected|
+
+<details>
+ <summary>Images</summary>
+ 
+
+
+</details>
+</br>
 
 8. As a user, I want to see the score at the end of the game.
 
@@ -586,12 +666,28 @@ The following browsers were tested for compatibility; all browsers were fully co
 |---|---|---|---|
 |Player and Computer Scores|I made a scoring system so the user can see the score throughout the whole game|The scoring system gives the user a clear idea on their score at the end of the game|All working as expected|
 
+<details>
+ <summary>Images</summary>
+ 
+
+
+</details>
+</br>
+
 9. As a user, I want it to be clear if I won or lost.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Player and Computer Scores|If the player wins their score increases and if they lose the computers score increases|The score increments clearly shows if the user won or lost|
 |Player and Computer Choices|When the choices gets weighed by the logic, if the player wins the text will read "you won" and if they lost it will show "you lose". Additionally if the user wins the text will turn green and if they lose the text will turn red|The changing text will show clearly if the user wins or loses|All working as expected|
+
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/c5e06a4c-ea88-419f-8a50-5e02588e572a)
+
+</details>
+</br>
 
 10. As a user, I want to be able to contact the site maker.
 

@@ -634,7 +634,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 |---|---|---|---|
 |Dropdown Bar|I made the dropdown bar have multiple choices to encourage trying them all to the user|The multiple amounts of rounds will encourage the user to try all of the round amounts and increase replayability|It does make the game more replayable and all works as intended|
 |Game Buttons|I made multiple choices for the game buttons to encourage the user to try them all|The differnet buttons encourages the user to try all options increasing replayability|It does make the game more replayable and all works as intended|
-|Player and Computer Scors|I made a scoring system so the user gets achievement when they win and wants to try again when they lose|The outcome of the score will encourage the user to keep playing until they get the result they want|It makes the game more replayable and works as expected|
+|Player and Computer Scores|I made a scoring system so the user gets achievement when they win and wants to try again when they lose|The outcome of the score will encourage the user to keep playing until they get the result they want|It makes the game more replayable and works as expected|
 |Play Again Button|I made a play again button on the win/lose/draw screen to encourage the user to the game again|The button will encourage users to keep playing after they win or lose or draw|All works as expected|
 |New Game Button|I made a button so the player can start a new game quickly to encourage the user to keep playing|The button will make user play the game more|All working as expected|
 
@@ -642,6 +642,9 @@ The following browsers were tested for compatibility; all browsers were fully co
  <summary>Images</summary>
  
 ![image](https://github.com/user-attachments/assets/66afbae0-f640-4bd7-ae2b-fd0742e44348)
+![image](https://github.com/user-attachments/assets/61ba1b2b-66c2-4098-8d5d-9e43bb2b30e4)
+![image](https://github.com/user-attachments/assets/67416a7b-3c48-4191-998a-32da1d0ced03)
+![image](https://github.com/user-attachments/assets/c85f40e6-3147-4967-8830-6de835ce81ef)
 
 </details>
 </br>
@@ -655,7 +658,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 <details>
  <summary>Images</summary>
  
-
+![image](https://github.com/user-attachments/assets/61ba1b2b-66c2-4098-8d5d-9e43bb2b30e4)
 
 </details>
 </br>
@@ -669,7 +672,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 <details>
  <summary>Images</summary>
  
-
+![image](https://github.com/user-attachments/assets/67416a7b-3c48-4191-998a-32da1d0ced03)
 
 </details>
 </br>
@@ -684,6 +687,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 <details>
  <summary>Images</summary>
  
+![image](https://github.com/user-attachments/assets/67416a7b-3c48-4191-998a-32da1d0ced03)
 ![image](https://github.com/user-attachments/assets/c5e06a4c-ea88-419f-8a50-5e02588e572a)
 
 </details>
@@ -694,6 +698,14 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Social Media Buttons|I added Social media buttons so that the user can contact me through there|The user will be able to click the buttons and be re-directed to my social media to contact me|All working as intended|
+
+<details>
+ <summary>Images</summary>
+ 
+![image](https://github.com/user-attachments/assets/9385b461-8a2e-493b-88b2-b0f4f00d07d0)
+
+</details>
+</br>
 
 ## Deployment
 

@@ -193,7 +193,6 @@ My wireframe concept was a single page, which would have everything that the use
 ## Features
 
 - ### Dropdown Bar
-
   - Featured at the top centre of the screen when you first load the website is a dropdown that allows the user to select the number of rounds they want to play.
 
   - The user can pick to play 1 to 8 rounds.
@@ -203,8 +202,10 @@ My wireframe concept was a single page, which would have everything that the use
   - It is fully responsive on all screen sizes, and it is located on the home page.
 
   - User Stories Answered: 1, 4, 6, 12, 13, 15
-
-![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
+<details>
+ <summary>Images</summary>
+ ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
+</details>
 
 - ### Game Buttons
 

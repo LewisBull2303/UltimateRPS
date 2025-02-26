@@ -209,6 +209,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### Game Buttons
 
   - The game buttons are clear and concise, easily allowing the user to see exactly which option they are picking.
@@ -226,6 +227,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
  
 </details>
+
 
 - ### Player and Computer Score
 
@@ -245,6 +247,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### Player and Computer Choices
 
   - Just above the score area, there is an area that shows the user what they picked and what the computer picked for their options.
@@ -260,6 +263,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/bc90dc1b-5268-43e2-8e8e-2350c9686c46)
 
 </details>
+
 
 - ### Play Again Button
 
@@ -279,6 +283,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### How to Play Button
 
   - On the home page I have added a button which will take the player to a how to play section
@@ -294,6 +299,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
 
 </details>
+
 
 - ### How to play Page
 
@@ -316,6 +322,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### Back Button
 
   - At the bottom of the How to Play page, there is the back button.
@@ -332,6 +339,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 
 </details>
+
 
 - ### Social Media Links
 
@@ -352,6 +360,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### Home Page Button
 
   - When the user loads the game page, the Home Page button will appear.
@@ -371,6 +380,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 - ### Continue Button
 
   - When the user clicks the home page button, the Continue button will appear.
@@ -387,6 +397,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
 
 </details>
+
 
 - ### New Game Button
 
@@ -405,6 +416,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
+
 ## Bugs
 
 |What was the Bug?|What was the Fix?|
@@ -417,7 +429,8 @@ My wireframe concept was a single page, which would have everything that the use
 
 ## Validator Testing
 
-- HTML
+
+### HTML
 
 - No errors were returned when passing through the W3C validator. One warning was returned; however, this is for a header that is updated and JavaScript, so the header needs to remain blank for the code to run correctly.
 <details>
@@ -427,7 +440,8 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
-- CSS
+
+### CSS
 
 - No errors were returned when passing through the official Jigsaw CSS Validator.
 <details>
@@ -437,7 +451,8 @@ My wireframe concept was a single page, which would have everything that the use
 
 </details>
 
-JavaScript Validator
+
+### JavaScript Validator
 
  - Passed my script.js through the JSHint validator. It passed with one issue, which is one unused function. This is not unused, as this is called when the user clicks a choice on the game page; however, that is not on the Javascript and is done on the HTML. Proof is in the image below:
 <details>
@@ -451,7 +466,8 @@ Proof of using the playGame function:
 
 </details>
 
-- Accessibility
+
+### Accessibility
 
 - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through Lighthouse in DevTools.
 <details>
@@ -460,6 +476,7 @@ Proof of using the playGame function:
 ![image](https://github.com/user-attachments/assets/7948c453-0c23-49ca-b2cf-9d82f2495ca9)
 
 </details>
+
 
 ## Testing across Different Devices
 

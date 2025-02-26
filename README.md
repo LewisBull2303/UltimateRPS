@@ -104,7 +104,7 @@ The design was chosen to create a modern, arcade-inspired aesthetic, blending vi
 
 ### Colour
 
-The colours I chose were a green, black, white, and various grey slate colours. This was to make the feel of a neon arcade. Some objects have a glow to them, which helps the vibe of a neon arcade game. The red was chosen as a stark contrast to the neutral colours and to give the glow that neon signs have. The whites, greys, and blacks were chosen as a base colour template, which allows the red neon colour to really pop at the user and draw their attention. When the player wins, there is a green colour for the victory text. When the player draws, the text turns into gold, and when the player loses, the text turns red. Additionally If I wanted something to add bold, there is an indigo colour that was unused but in the code.
+The colours I chose were a red, green, black, white, and various grey slate colours. This was to make the feel of a neon arcade. Some objects have a glow to them, which helps the vibe of a neon arcade game. The red was picked as a stark contrast to the neutral colours and to give the glow that neon signs have. The whites, greys, and blacks were chosen as a base colour template, which allows the red neon colour to really pop at the user and draw their attention. When the player wins, there is a green colour for the victory text. When the player draws, the text turns into gold, and when the player loses, the text turns red. Additionally, If I wanted something to add bold, there is an indigo colour that was unused but in the code.
 
 - Rose Colour: #e11d48
 
@@ -132,15 +132,15 @@ The colours I chose were a green, black, white, and various grey slate colours. 
 
 ## Fonts
 
-The font that I chose for UltimateRPS is Satoshi and sans-serif as a backup. Satoshi gave the website a very modern look and gave the web page personality whilst still not drawing the focus away from the main game.
+The font that I chose for Ultimate RPS is Satoshi and sans-serif as a backup. Satoshi gave the website a very modern look and gave the web page personality whilst still not drawing the focus away from the main game.
 
 ![image](https://github.com/user-attachments/assets/d9f70104-5edb-44aa-a0d5-a94ae95dc534)
 
 ## Structure
 
-The structure of the site is made to make the users focus drawn to the game and its components. When the user opens the page, the interactable objects are in the rose colour and glowing, so it is intuitively clear to the user that they can be clicked and interacted with. This allows the users to come to the site and play the game straight away, as it is clear which parts are interactable. This also allows for the user to feel welcome and then allows them to jump straight into the game.
+The structure of the site is made to make the user's focus drawn to the game and its components. When the user opens the page, the intractable objects are in the rose colour and glowing, so it is intuitively clear to the user that they can be clicked and interacted with. This allows the users to come to the site and play the game straight away, as it is clear which parts are intractable. This also allows for the user to feel welcome and then allows them to jump straight into the game.
 
- - The home page has clear, interactable objects that glow, which allows the user to intuitively know how to play the game.
+ - The home page has clear, intractable objects that glow, which allows the user to intuitively know how to play the game.
 
  - There are buttons for social media links, which then link to my social media on the home page.
 
@@ -148,7 +148,7 @@ The structure of the site is made to make the users focus drawn to the game and 
 
 ## Wireframe
 
-My wireframe concept was a single page, which would have everything that the user needed on there. There would be the home page where the user can select the amount of rounds and then click play, where all of the buttons they can click would pop up, and the amount of rounds would be at the top. Then when the game was over, a screen saying if they won or lost would appear, and it would show the score, with a button underneath to play again.
+My wireframe concept was a single page, which would have everything that the user needed on there. There would be the home page where the user can select the amount of rounds and then click play, where all of the buttons they can click would pop up, and the amount of rounds would be at the top. Then, when the game was over, a screen saying if they won or lost would appear, and it would show the score, with a button underneath to play again.
 
 ### Home Page:
 
@@ -180,7 +180,7 @@ My wireframe concept was a single page, which would have everything that the use
 
  - [Git](https://git-scm.com/) - To use cloning my repo to computers I am working on, as well as using add, commit, and push to add my changes to my GitHub repo.
 
- - [Github](https://github.com/) - To host my project online for submission
+ - [GitHub](https://github.com/) - To host my project online for submission
 
  - [Visual Studio Code](https://code.visualstudio.com/) - To create and edit the source code for this project
 
@@ -271,7 +271,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - This button allows the player to return to the start of the game and try again; the player can re-select the amount of rounds that they want to do.
 
-  - The button has similar styling to the other so the user can easily understand that it is an interactable object.
+  - The button has similar styling to the other, so the user can easily understand that it is an intractable object.
 
   - It is fully responsive on all screen sizes and is located on the Win/Draw/Lose Page.
 
@@ -345,9 +345,9 @@ My wireframe concept was a single page, which would have everything that the use
 
   - At the bottom of all pages, there are social media links.
 
-  - These were implemented so the user can contact me through my social media.
+  - These were implemented, so the user can contact me through my social media.
 
-  - There are 3 buttons with the correct links to my Instagram, LinkedIn and Github
+  - There are 3 buttons with the correct links to my Instagram, LinkedIn, and GitHub
 
   - These buttons are fully responsive and work on all screen sizes. These buttons are located on every page.
 
@@ -401,7 +401,7 @@ My wireframe concept was a single page, which would have everything that the use
 
 - ### New Game Button
 
-  - When the user clicks on the home page there will be another button next to the continue button called New Game
+  - When the user clicks on the home page, there will be another button next to the continue button called New Game
 
   - This button allows the user to go back to the home page and start a new game if they want.
 
@@ -454,13 +454,13 @@ My wireframe concept was a single page, which would have everything that the use
 
 ### JavaScript Validator
 
- - Passed my script.js through the JSHint validator. It passed with one issue, which is one unused function. This is not unused, as this is called when the user clicks a choice on the game page; however, that is not on the Javascript and is done on the HTML. Proof is in the image below:
+ - Passed my script.js through the JSHint validator. It passed with one issue, which is one unused function. This is not unused, as this is called when the user clicks a choice on the game page; however, that is not on the JavaScript and is done on the HTML. Proof is in the image below:
 <details>
  <summary>Images</summary>
  
 ![image](https://github.com/user-attachments/assets/50459577-fc2f-486a-899e-263f4ec1c42d)
 
-Proof of using the playGame function:
+Proof of using the play Game function:
 
 ![image](https://github.com/user-attachments/assets/5281a3e4-e412-4cd6-8bf9-c41135b1fdbd)
 
@@ -508,7 +508,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 
  - I tested that this page works in different browsers: Edge, Firefox, Chrome, Safari, and Opera GX.
 
- - I confirmed that this project is responsive, looks good, and functions on all standard screen sizes using the devtools in Chrome and Edge.
+ - I confirmed that this project is responsive, looks good, and functions on all standard screen sizes using the DevTools in Chrome and Edge.
 
  - I confirmed that all text is easy to read and has correct spelling and grammar in places where needed.
 
@@ -520,7 +520,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
-|Round Select bar|When the user opens the site there is text asking them to select the number of rounds and it indicated to the rounds dropdown menu|The user clicks on the dropdown menu and can select up to 8 rounds of gameplay|All works as expected|
+|Round Select bar|When the user opens the site, there is text asking them to select the number of rounds, and it indicated to the rounds' dropdown menu|The user clicks on the dropdown menu and can select up to 8 rounds of gameplay|All works as expected|
 
 <details>
  <summary>Images</summary>
@@ -537,7 +537,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |How to play button|Added a button which takes the user to the how to play page|When clicked, the button takes the user to the how to play guide|All works as expected|
-|How to play page|Added a page with text explaining how to play and an image on which choices beat each other|When the user clicks the how to play button the how to play page will load correctly|All works as expected|
+|How to play page|Added a page with text explaining how to play and an image on which choices beat each other|When the user clicks the how to play button, the how to play page will load correctly|All works as expected|
 
 <details>
  <summary>Images</summary>
@@ -573,17 +573,17 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
-|Dropdown Bar|Added Media Queiries to the Dropdown Bar|The dropdown bar will work across all screen sizes|All working as expected|
+|Dropdown Bar|Added Media Queries to the Dropdown Bar|The dropdown bar will work across all screen sizes|All working as expected|
 |Game Buttons|Added a wrapping effect to the game buttons for smaller screen sizes|The game buttons will look good on all screen sizes|All works as expected|
-|Player and Computer Score|Added media queires to make the text smaller on different screen sizes|The text will shrink on smaller screen sizes|All working as expected|
-|Player and Computer Choices|Added media queires to make the text smalled on smaller screens|The Text will shrink on smaller screens|All works as expected|
+|Player and Computer Score|Added media queries to make the text smaller on different screen sizes|The text will shrink on smaller screen sizes|All working as expected|
+|Player and Computer Choices|Added media queries to make the text smaller on smaller screens|The Text will shrink on smaller screens|All works as expected|
 |Play Again Button|Made it so the the play again button inherently is in the middle of the screen regardless of screen size|The play again button will look good on smaller screen sizes|All works as expected|
-|How to play Button|Made the how to play button centered so it looks good on all screens|The how to play button looks good on all screens|All working as expected|
+|How to play Button|Made the how to play button centred so it looks good on all screens|The how to play button looks good on all screens|All working as expected|
 |How to play page|Made the Image and text smaller when the screen shrinks|All elements on the How to play screen will get smaller|All working as expected|
-|Back Button|Made the back button centered so it looks good on all screen sizes|The Button will stay in the middle and look good across all screen sizes|All working as expected|
-|Social Media Buttons|On all pages there are 3 buttons that take the user to different social medias, they have media queiries to make them look better on smaller screens|The buttons will go from flex-direction row to flex-direction column|All working as expected|
-|Home page Button|Made the home page button centered so It will look good on all screen sizes|The button will look good and correct on all screens|All working as expected|
-|Continue Button|The continue button has styles so its centered and will look good on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
+|Back Button|Made the back button centred so it looks good on all screen sizes|The Button will stay in the middle and look good across all screen sizes|All working as expected|
+|Social Media Buttons|On all pages there are 3 buttons that take the user to different social media, they have media queries to make them look better on smaller screens|The buttons will go from flex-direction row to flex-direction column|All working as expected|
+|Home page Button|Made the home page button centred so It will look good on all screen sizes|The button will look good and correct on all screens|All working as expected|
+|Continue Button|The continue button has styles so it's centred and will look good on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 |New Game Button|The new game button has the same styles as the continue button and will look correct on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 
 <details>
@@ -612,10 +612,10 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
-|Game Buttons|The game buttons has many options and make the game more fun|Mutliple game buttons will make the game more enjoyable|It does make the game more fun, I have asked 3 other people and they agree|
-|Player and Computer Score|The score will increase to make the game more enjoyable|The score changing makes the game more fun and competitive|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
-|Continue Button|I created a continue button to allow the player to keep playing which is more fun|The continue button will allow the player to continue where they left off and keep playing which is more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
-|New Game Button|I created a new game button to allow the player to start a new game if the game they are playing is not fun|The new game button allows the user to start again making the game more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
+|Game Buttons|The game buttons has many options and make the game more fun|Multiple game buttons will make the game more enjoyable|It does make the game more fun, I have asked 3 other people and they agree|
+|Player and Computer Score|The score will increase to make the game more enjoyable|The score changing makes the game more fun and competitive|It does make the game more fun, Once again I asked the same 3 people, and they agree with this opinion|
+|Continue Button|I created a continue button to allow the player to keep playing which is more fun|The continue button will allow the player to continue where they left off and keep playing which is more fun|It does make the game more fun, Once again I asked the same 3 people, and they agree with this opinion|
+|New Game Button|I created a new game button to allow the player to start a new game if the game they are playing is not fun|The new game button allows the user to start again making the game more fun|It does make the game more fun, Once again I asked the same 3 people, and they agree with this opinion|
 
 <details>
  <summary>Images</summary>
@@ -633,10 +633,10 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
 |Dropdown Bar|I made the dropdown bar have multiple choices to encourage trying them all to the user|The multiple amounts of rounds will encourage the user to try all of the round amounts and increase replayability|It does make the game more replayable and all works as intended|
-|Game Buttons|I made multiple choices for the game buttons to encourage the user to try them all|The differnet buttons encourages the user to try all options increasing replayability|It does make the game more replayable and all works as intended|
-|Player and Computer Scores|I made a scoring system so the user gets achievement when they win and wants to try again when they lose|The outcome of the score will encourage the user to keep playing until they get the result they want|It makes the game more replayable and works as expected|
-|Play Again Button|I made a play again button on the win/lose/draw screen to encourage the user to the game again|The button will encourage users to keep playing after they win or lose or draw|All works as expected|
-|New Game Button|I made a button so the player can start a new game quickly to encourage the user to keep playing|The button will make user play the game more|All working as expected|
+|Game Buttons|I made multiple choices for the game buttons to encourage the user to try them all|The different buttons encourages the user to try all options, increasing replayability|It does make the game more replayable and all works as intended|
+|Player and Computer Scores|I made a scoring system, so the user gets an achievement when they win and wants to try again when they lose|The outcome of the score will encourage the user to keep playing until they get the result they want|It makes the game more replayable and works as expected|
+|Play Again Button|I made a play again button on the win/lose/draw screen to encourage the user to game again|The button will encourage users to keep playing after they win or lose or draw|All works as expected|
+|New Game Button|I made a button, so the player can start a new game quickly to encourage the user to keep playing|The button will make user play the game more|All working as expected|
 
 <details>
  <summary>Images</summary>
@@ -667,7 +667,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
-|Player and Computer Scores|I made a scoring system so the user can see the score throughout the whole game|The scoring system gives the user a clear idea on their score at the end of the game|All working as expected|
+|Player and Computer Scores|I made a scoring system, so the user can see the score throughout the whole game|The scoring system gives the user a clear idea on their score at the end of the game|All working as expected|
 
 <details>
  <summary>Images</summary>
@@ -681,8 +681,8 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
-|Player and Computer Scores|If the player wins their score increases and if they lose the computers score increases|The score increments clearly shows if the user won or lost|
-|Player and Computer Choices|When the choices gets weighed by the logic, if the player wins the text will read "you won" and if they lost it will show "you lose". Additionally if the user wins the text will turn green and if they lose the text will turn red|The changing text will show clearly if the user wins or loses|All working as expected|
+|Player and Computer Scores|If the player wins their score increases and if they lose the computer's score increases|The score increments clearly shows if the user won or lost|
+|Player and Computer Choices|When the choices get weighed by the logic, if the player wins the text will read “you won” and if they lost it will show “you lose”. Additionally, if the user wins the text will turn green and if they lose the text will turn red|The changing text will show clearly if the user wins or loses|All working as expected|
 
 <details>
  <summary>Images</summary>
@@ -710,19 +710,19 @@ The following browsers were tested for compatibility; all browsers were fully co
 ## Deployment
 
 The website was deployed to GitHub Pages via the following:
-1. From Github repository select settings
+1. From GitHub repository, select settings
 2. Select pages from the left menu
 3. Select the master branch
-4. When the page refreshes you will see a message to notify you the site is now published
+4. When the page refreshes, you will see a message to notify you the site is now published
 
-You can for fork the repository by following these steps:
+You can fork the repository by following these steps:
 1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
+2. Click on Fork button in upper right-hand corner
 
 You can clone the repository by following these steps:
 1. Go to the GitHub repository
 2. Locate the Code button above the list of files and click it
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
@@ -731,18 +731,17 @@ You can clone the repository by following these steps:
 ## Credits
 
 ### Code Attributions:
-Fontawesome - For icons on my project
+Font awesome - For icons on my project
 Fonts provided by Fontshare
 This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic game - https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
-Grammerly for helping me with spelling and grammer mistakes
+Grammarly for helping me with spelling and grammar mistakes
 
 ## Acknowledgements:
 
 First and foremost, I would like to give a special thank you to my wonderful girlfriend Jasmine, whose support has made managing a full-time job, Open University, and Code Institute submissions possible.
 
-Special thank you also to Mo Shami, My mentors whos help and guidance has been truly invaluable to me.
+Special thank you also to Mo Shami, My mentors, whose help and guidance has been truly invaluable to me.
 
-And an additional Special thank you to Dylan, Jasmine and Dan for testing the game and helping test user story 5 with me, Your help was incredibly useful to me.
+And an additional Special thank you to Dylan, Jasmine, and Dan for testing the game and helping test user story 5 with me, Your help was incredibly useful to me.
 
 The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
-

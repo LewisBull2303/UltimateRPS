@@ -538,6 +538,20 @@ The following browsers were tested for compatibility; all browsers were fully co
 |New Game Button|When the user clicks the home button it will ask them if they want to continue or create a new game, If the play clicks the new game button it will take them back to the home page|The new game button takes the user back to the home page|All works as expected|
 |Play again button|On the end page, there is a button called play again which takes the user back to the home page|The play again button will take the user back to the home page|All working as expected|
 
+4. As a user, I want to be able to play the game on any device.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Dropdown Bar|Added Media Queiries to the Dropdown Bar|The dropdown bar will work across all screen sizes|All working as expected|
+|Game Buttons|Added a wrapping effect to the game buttons for smaller screen sizes|The game buttons will look good on all screen sizes|All works as expected|
+|Player and Computer Score|Added media queires to make the text smaller on different screen sizes|The text will shrink on smaller screen sizes|All working as expected|
+|Player and Computer Choices|Added media queires to make the text smalled on smaller screens|The Text will shrink on smaller screens|All works as expected|
+|Play Again Button|Made it so the the play again button inherently is in the middle of the screen regardless of screen size|The play again button will look good on smaller screen sizes|All works as expected|
+|How to play Button|Made the how to play button centered so it looks good on all screens|The how to play button looks good on all screens|All working as expected|
+|How to play page|Made the Image and text smaller when the screen shrinks|All elements on the How to play screen will get smaller|All working as expected|
+|Back Button|Made the back button centered so it looks good on all screen sizes|The Button will stay in the middle and look good across all screen sizes|All working as expected|
+
+
 ## Deployment
 
 - This site was deployed to GitHub pages. The steps to deploy are as follows:

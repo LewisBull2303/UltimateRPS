@@ -204,7 +204,7 @@ My wireframe concept was a single page, which would have everything that the use
   - User Stories Answered: 1, 4, 6, 12, 13, 15
 <details>
  <summary>Images</summary>
- ![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
+![image](https://github.com/user-attachments/assets/09a6ff45-ec89-429f-9fc6-f2f1dabcfd0d)
 </details>
 
 - ### Game Buttons

@@ -12,7 +12,7 @@ This website is made for game enthusiasts and people who enjoy learning new vers
 
 ## Table of Content
 
-1.[Project Goals](#Project Goals)
+1.[Project Goals](##Project Goals)
 
 ## Project Goals
 

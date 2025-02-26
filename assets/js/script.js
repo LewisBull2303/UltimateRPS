@@ -1,20 +1,7 @@
 // Array of possible choices in the game.
 const choices = [
-  "Rock✊",
-  "Paper✋",
-  "Scissors✌",
-  "Gun🔫",
-  "Lightning⚡",
-  "Devil😈",
-  "Dragon🐉",
-  "Water🌊",
-  "Air💨",
-  "Sponge🧽",
-  "Wolf🐺",
-  "Tree🌲",
-  "Human🧍",
-  "Snake🐍",
-  "Fire🔥",
+  "Rock✊", "Paper✋", "Scissors✌", "Gun🔫", "Lightning⚡", "Devil😈", "Dragon🐉",
+  "Water🌊", "Air💨", "Sponge🧽", "Wolf🐺", "Tree🌲", "Human🧍", "Snake🐍", "Fire🔥",
 ];
 
 // DOM elements used to display game results and scores.
@@ -34,7 +21,7 @@ const backButton = document.getElementById("backButton");
 
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
-const newGameButton = document.getElementById("newGame")// Button for starting a new game
+const newGameButton = document.getElementById("newGame") // Button for starting a new game
 
 const selectElement = document.getElementById("rounds"); // Dropdown for selecting the round
 const roundInstructions = document.getElementById("roundInstructions");
@@ -50,10 +37,10 @@ let computerScore = 0; // Computer score tracker
 
 // Event listener for submitting the number of rounds
 submitDropDown.addEventListener("click", (event) => {
-  event.preventDefault();
-  const selectedValue = parseInt(selectElement.value);
+  event.preventDefault(); // Prevent form submission
+  const selectedValue = parseInt(selectElement.value); // Get selected number of rounds
   remainingRounds = selectedValue;
-  roundsOutput.textContent = `${selectedValue} Rounds Left`;
+  roundsOutput.textContent = `${selectedValue} Rounds Left`; // Display rounds left
 
   // Hide elements that are not needed
   const disableHide = document.getElementsByClassName("hide-element");
@@ -70,10 +57,10 @@ function playGame(playerChoice) {
 
   // If both choices are the same, it's a tie
   if (playerChoice === computerChoice) {
-    result = "It's a Tie!";
+    result = "It's a Tie!"; // Set result to tie
     resultDisplay.classList.remove("green-Text");
     resultDisplay.classList.remove("red-Text");
-    resultDisplay.classList.add("gold-Text");
+    resultDisplay.classList.add("gold-Text"); // Change result display style
 
     // Update remaining rounds display
     if (remainingRounds >= 0) {
@@ -262,15 +249,15 @@ function playGame(playerChoice) {
     if (result === "You Win!") {
       playerScore++; // Increment Player score
       playerScoreDisplay.textContent = playerScore;
-      resultDisplay.classList.add("green-Text");
+      resultDisplay.classList.add("green-Text"); // Style for player win
       resultDisplay.classList.remove("red-Text", "gold-Text");
     } else if (result === "You Lose!") {
       computerScore++; // Increment Computer score
       computerScoreDisplay.textContent = computerScore;
-      resultDisplay.classList.add("red-Text");
+      resultDisplay.classList.add("red-Text"); // Style for computer win
       resultDisplay.classList.remove("green-Text", "gold-Text");
     } else if (result === "It's a Tie!") {
-      resultDisplay.classList.add("gold-Text");
+      resultDisplay.classList.add("gold-Text"); // Style for tie
       resultDisplay.classList.remove("green-Text", "red-Text");
     }
 
@@ -286,12 +273,12 @@ function playGame(playerChoice) {
   // If the player or computer wins, the conditions below activate
   // Event listener for if the user wants to replay the game
   replayButton.addEventListener("click", () => {
-    resultDisplay.textContent = "";
+    resultDisplay.textContent = ""; // Clear result text
     startGameElements.forEach((element) =>
-      element.classList.add("hide-element")
+      element.classList.add("hide-element") // Hide start game elements
     );
 
-    homePage();
+    homePage(); // Go back to home page
 
     playerDisplay.textContent = `PLAYER: `;
     computerDisplay.textContent = `COMPUTER `;
@@ -304,144 +291,20 @@ function playGame(playerChoice) {
 
   // Game Over
   if (remainingRounds <= 0) {
-    backButton.classList.add("hide-element");
+    backButton.classList.add("hide-element"); // Hide back button when game is over
     roundsOutput.textContent = "Game Over, Play Again?";
 
     // Display final results when the game ends
     if (playerScore > computerScore) {
-      resultDisplay.textContent = `Congrats! You Win! You Scored ${playerScore} points!`;
+      resultDisplay.textContent = `Congrats! You Win! You Scored ${playerScore} points!`; // Player win message
       resultDisplay.classList.add("green-Text");
       resultDisplay.classList.remove("red-Text");
       resultDisplay.classList.remove("gold-Text");
     } else if (computerScore > playerScore) {
-      resultDisplay.textContent = `Oh No! You Lose! You Scored ${playerScore} but the computer Scored ${computerScore}`;
+      resultDisplay.textContent = `Oh No! You Lose! You Scored ${playerScore} but the computer Scored ${computerScore}`; // Computer win message
       resultDisplay.classList.add("red-Text");
       resultDisplay.classList.remove("green-Text");
       resultDisplay.classList.remove("gold-Text");
     } else {
-      resultDisplay.textContent = `It's a Tie! You both scored ${playerScore}`;
-      resultDisplay.classList.add("gold-Text");
-      resultDisplay.classList.remove("green-Text");
-      resultDisplay.classList.remove("red-Text");
-    }
-
-    // Hide game elements and display the play again button
-    for (let child of gameButtonsContainer.children) {
-      child.classList.add("hide-element");
-    }
-    playerDisplay.classList.add("hide-element");
-    computerDisplay.classList.add("hide-element");
-    replayButton.classList.remove("hide-element");
-  } else {
-    roundsOutput.textContent = `${remainingRounds} Rounds Left`;
-  }
-}
-
-// Options button event listener
-optionsButton.addEventListener("click", () => {
-  optionsElements.forEach((element) =>
-    element.classList.remove("hide-element")
-  );
-  roundsOutput.classList.add("hide-element");
-  submitDropDown.classList.add("hide-element");
-  roundsSelect.classList.add("hide-element");
-  optionsBack.classList.remove("hide-element");
-  optionsButton.classList.add("hide-element");
-  backButton.classList.add("hide-element");
-});
-
-// Options back button event listener
-optionsBack.addEventListener("click", () => {
-  homePage();
-
-  continueGame()
-});
-
-// Back button event listener
-backButton.addEventListener("click", () => {
-  homePage();
-
-  continueGame()
-});
-
-newGameButton.addEventListener("click", () => {
-  homePage()
-  playerDisplay.textContent = `PLAYER: `;
-  computerDisplay.textContent = `COMPUTER `;
-  resultDisplay.classList.add("hide-element");
-  resultDisplay.textContent = '';
-
-  playerScore = 0;
-  playerScoreDisplay.textContent = playerScore;
-  computerScore = 0;
-  computerScoreDisplay.textContent = computerScore;
-})
-
-// Home page setup
-function homePage() {
-  // All elements on the home page, so unhide them
-  optionsButton.classList.remove("hide-element");
-  selectElement.classList.remove("hide-element");
-  roundsSelect.classList.remove("hide-element");
-  backButton.classList.remove("hide-element");
-  submitDropDown.classList.remove("hide-element");
-  newGameButton.classList.add("hide-element");
-  roundInstructions.textContent = "Please select the number of rounds you would like to play: ";
-  submitDropDown.textContent = "Submit";
-  submitDropDown.style.fontSize = "12px";
-
-  // All elements not on the home page so hidden
-  backButton.classList.add("hide-element");
-  playerDisplay.classList.add("hide-element");
-  computerDisplay.classList.add("hide-element");
-  resultDisplay.classList.add("hide-element");
-  playerScoreDisplay.classList.add("hide-element");
-  computerScoreDisplay.classList.add("hide-element");
-  roundsOutput.classList.add("hide-element");
-  gameButtonsContainer.classList.add("hide-element");
-  optionsElements.forEach((element) => element.classList.add("hide-element"));
-  optionsBack.classList.add("hide-element");
-  startGameElements.forEach((element) => element.classList.add("hide-element"));
-  replayButton.classList.add("hide-element");
-}
-
-// Game page setup
-function gamePage() {
-  // All elements on the game page, so unhide them
-  startGameElements.forEach((element) =>
-    element.classList.remove("hide-element")
-  );
-  backButton.classList.remove("hide-element");
-  gameButtonsContainer.classList.remove("hide-element");
-  resultDisplay.classList.remove("hide-element");
-  playerScoreDisplay.classList.remove("hide-element");
-  computerScoreDisplay.classList.remove("hide-element");
-  playerDisplay.classList.remove("hide-element");
-  computerDisplay.classList.remove("hide-element");
-  roundsOutput.classList.remove("hide-element");
-  backButton.classList.remove("hide-element");
-  // All elements not on the game page so hidden
-  optionsElements.forEach((element) => element.classList.add("hide-element"));
-  optionsBack.classList.add("hide-element");
-  replayButton.classList.add("hide-element");
-  optionsButton.classList.add("hide-element");
-  selectElement.classList.add("hide-element");
-  submitDropDown.classList.add("hide-element");
-  newGameButton.classList.add("hide-element");
-  roundsSelect.classList.add("hide-element");
-}
-
-function continueGame(){
-  if (remainingRounds > 0) {
-    roundsOutput.textContent = `${remainingRounds}`;
-    selectElement.classList.add("hide-element");
-    submitDropDown.textContent = "Continue?";
-    newGameButton.classList.remove("hide-element")
-    submitDropDown.style.fontSize = "22px";
-    selectElement.value = remainingRounds;
-    roundsOutput.textContent = `${remainingRounds} Rounds Left`;
-    roundInstructions.textContent = "Would you like to continue?";
-  } else {
-    homePage();
-  }
-}
+      resultDisplay.textContent = `It's a Tie! You both scored ${playerScore}`; // Tie message
+      resultDisplay.class

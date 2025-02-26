@@ -188,7 +188,7 @@ My wireframe concept was a single page, which would have everything that the use
 
  - [FontShare](https://www.fontshare.com/) - To find my base font for my project
 
- - [Prettier] (https://prettier.io/) - To make my JavaScript code more compatible and more like the industry standard.
+ - [Prettier](https://prettier.io/) - To make my JavaScript code more compatible and more like the industry standard.
 
 ## Features
 
@@ -356,16 +356,6 @@ My wireframe concept was a single page, which would have everything that the use
 
 ![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
 
-## Testing
-
- - I tested that this page works in different browsers: Edge, Firefox, Chrome, Safari, and Opera GX.
-
- - I confirmed that this project is responsive, looks good, and functions on all standard screen sizes using the devtools in Chrome and Edge.
-
- - I confirmed that all text is easy to read and has correct spelling and grammar in places where needed.
-
- - I have confirmed that all buttons function as intended.
-
 ## Bugs
 
 |What was the Bug?|What was the Fix?|
@@ -432,6 +422,16 @@ The following browsers were tested for compatibility; all browsers were fully co
 
  - Firefox (Fully Compatible)
 
+### Testing Overview
+
+ - I tested that this page works in different browsers: Edge, Firefox, Chrome, Safari, and Opera GX.
+
+ - I confirmed that this project is responsive, looks good, and functions on all standard screen sizes using the devtools in Chrome and Edge.
+
+ - I confirmed that all text is easy to read and has correct spelling and grammar in places where needed.
+
+ - I have confirmed that all buttons function as intended.
+
 ## Deployment
 
 - This site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -450,5 +450,5 @@ This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic gam
 
 The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
 
-# Please note that when looking at the commits, if the message is something like 'Update script.js', please click into the commit as the comments may be left as a extended description
+### Please note that when looking at the commits, if the message is something like 'Update script.js', please click into the commit as the comments may be left as a extended description
 

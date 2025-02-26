@@ -227,7 +227,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/18ad0608-d3df-448b-97b3-efa689cddc47)
  
 </details>
-
+</br>
 
 - ### Player and Computer Score
 
@@ -246,7 +246,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/bd02db87-d341-4d96-b293-2b4c0aabf439)
 
 </details>
-
+</br>
 
 - ### Player and Computer Choices
 
@@ -263,7 +263,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/bc90dc1b-5268-43e2-8e8e-2350c9686c46)
 
 </details>
-
+</br>
 
 - ### Play Again Button
 
@@ -282,7 +282,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/d7a18db6-0d7a-471d-aa26-c8a21d23bd3d)
 
 </details>
-
+</br>
 
 - ### How to Play Button
 
@@ -299,7 +299,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/52c8da6c-fbca-40bf-a624-c0fa53e2808b)
 
 </details>
-
+</br>
 
 - ### How to play Page
 
@@ -321,7 +321,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/54d846a6-63d2-42af-84cf-73aef22c27f6)
 
 </details>
-
+</br>
 
 - ### Back Button
 
@@ -339,7 +339,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/12ba391b-809a-463c-ba78-8a8cdd49fcec)
 
 </details>
-
+</br>
 
 - ### Social Media Links
 
@@ -359,7 +359,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/9fa690e6-bdbb-4b74-9e32-44428aad55da)
 
 </details>
-
+</br>
 
 - ### Home Page Button
 
@@ -379,7 +379,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/4f8cb206-0abc-40a2-8c6b-e65b55b723ec)
 
 </details>
-
+</br>
 
 - ### Continue Button
 
@@ -397,7 +397,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/f33e94fd-6e36-43e4-ad0c-f546bad9ec82)
 
 </details>
-
+</br>
 
 - ### New Game Button
 
@@ -415,7 +415,7 @@ My wireframe concept was a single page, which would have everything that the use
 ![image](https://github.com/user-attachments/assets/965b688d-72be-4413-b05a-467887ef9d58)
 
 </details>
-
+</br>
 
 ## Bugs
 

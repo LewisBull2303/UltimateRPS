@@ -214,6 +214,16 @@ i{
     margin-right: auto;
 }
 
+.continue-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .social-media-container{
     text-wrap: wrap;
     display: flex;
@@ -242,7 +252,8 @@ i{
     padding: 0;
 }
 
-/* XXXS (extra extra small) */
+
+/* XXXXS (extra extra small) */
 @media (min-width: 50px) {
     img{
         /* Adjust image size for very small screen widths */
@@ -257,6 +268,7 @@ i{
         justify-content: center;
     }
     p{
+        font-size: 14px;
         justify-content: center;
     }
     #player-display{
@@ -306,6 +318,7 @@ i{
     }
     p{
         justify-content: center;
+        font-size: 18px;
     }
     .container{
         text-align: center;
@@ -339,7 +352,7 @@ i{
 @media (min-width: 768px) {
     p{
         /* Adjust paragraph font size for larger screens */
-        font-size: larger;
+        font-size: 22px;
     }
 }
 

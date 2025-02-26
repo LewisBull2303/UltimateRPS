@@ -730,11 +730,18 @@ You can clone the repository by following these steps:
 
 ## Credits
 
-First and foremost, I would like to give credit to my wonderful girlfriend Jasmine, whose support has made managing a full-time job, Open University, and Code Institute submissions possible.
-
+### Code Attributions:
+Fontawesome - For icons on my project
+Fonts provided by Fontshare
 This game was inspired and helped by GeeksForGeeks Rock Paper Scissors Logic game - https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
 
-The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
+## Acknowledgements:
 
-### Please note that when looking at the commits, if the message is something like 'Update script.js', please click into the commit as the comments may be left as a extended description
+First and foremost, I would like to give a special thank you to my wonderful girlfriend Jasmine, whose support has made managing a full-time job, Open University, and Code Institute submissions possible.
+
+Special thank you also to Mo Shami, My mentors whos help and guidance has been truly invaluable to me.
+
+And an additional Special thank you to Dylan, Jasmine and Dan for testing the game and helping test user story 5 with me, Your help was incredibly useful to me.
+
+The Live link to this repository can be found here - https://lewisbull2303.github.io/UltimateRPS
 

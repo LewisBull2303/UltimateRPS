@@ -13,12 +13,37 @@ This website is made for game enthusiasts and people who enjoy learning new vers
 ## Table of Content
 
 1. [Project Goals](##Project-Goals)
+    - [User Goals](###user-goals)
+    - [Site Goals](###site-goals)
+2. [User Experience](##user-experience)
+    - [Target Audience](###target-audience)
+    - [User Requirements and Expectations](###user-requirements-and-expectations)
+    - [User Stories](###user-stories)
+3. [Design](##design)
+    - [Design Choices](###design-choices)
+    - [Colour](###colour)
+    - [Colour Palette](###colour-palette)
+    - [Fonts](###fonts)
+4. [Structure](##structure)
+    - [Wireframe](###wireframe)
+5. [Technologies Used](##technologies-used)
+    - [Languages](###languages)
+    - [Frameworks and Tools](###framework-and-tools)
+6. [Features](##features)
+7. [Bugs](##bugs)
+8. [Validator Testing](##validator-testing)
+9. [Testing Across Different Devices](###testing-across-different-devices)
+     - [Browser Compatibility Tests](###browser-compatibility-tests)
+     - [Testing Overview](###testing-overview)
+10. [Testing User Stories](##testing-user-stories)
+11. [Deployment](##deployment)
+12. [Credits](##credits)
 
 ## Project Goals
 
 The goal of this project is to create a new and exciting take on the classic game rock, paper, scissors.
 
-## User Goals
+### User Goals
 
 - To play a different and unique game.
 
@@ -30,7 +55,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 
 - To make me want to come back and play more.
 
-## Site Goals
+### Site Goals
 
 - Provide an enjoyable and fun game to users.
 
@@ -62,7 +87,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 
 - Controls to start and stop the game.
 
-## User Stories
+### User Stories
 
 1. As a user, I want to be able to select the number of rounds.
 
@@ -84,7 +109,7 @@ The goal of this project is to create a new and exciting take on the classic gam
 
 10. As a user, I want to be able to contact the site maker.
 
-## Site Goals
+### Site Stories
 
 11. As the site maker, I would like to create a fun and replayable game.
 
@@ -136,7 +161,7 @@ The colours I chose were a red, green, black, white, and various grey slate colo
 
 ![image](https://github.com/user-attachments/assets/b9e13cf1-8dd9-4b54-bd5c-77e4f09b41c1)
 
-## Fonts
+### Fonts
 
 The font that I chose for Ultimate RPS is Satoshi and sans-serif as a backup. Satoshi gave the website a very modern look and gave the web page personality whilst still not drawing the focus away from the main game.
 
@@ -152,7 +177,7 @@ The structure of the site is made to make the user's focus drawn to the game and
 
  - All objects are structured to be able to work on all types of devices.
 
-## Wireframe
+### Wireframe
 
 My wireframe concept was a single page, which would have everything that the user needed on there. There would be the home page where the user can select the amount of rounds and then click play, where all of the buttons they can click would pop up, and the amount of rounds would be at the top. Then, when the game was over, a screen saying if they won or lost would appear, and it would show the score, with a button underneath to play again.
 

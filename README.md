@@ -516,7 +516,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 ## Testing User Stories
 
-1. As a user, I want to be able to select the number of rounds.
+### 1. As a user, I want to be able to select the number of rounds.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -532,7 +532,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-2. As a user, I want to have a guide on how to play.
+### 2. As a user, I want to have a guide on how to play.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -548,7 +548,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-3. As a user, I want to be able to go back to the home page whenever I want.
+### 3. As a user, I want to be able to go back to the home page whenever I want.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -569,7 +569,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-4. As a user, I want to be able to play the game on any device.
+### 4. As a user, I want to be able to play the game on any device.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -608,7 +608,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-5. As a user, I want to have the game be fun.
+### 5. As a user, I want to have the game be fun.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -628,7 +628,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-6. As a user, I want the game to be replayable.
+### 6. As a user, I want the game to be replayable.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -649,7 +649,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-7. As a user, I want to have many options to win.
+### 7. As a user, I want to have many options to win.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -663,7 +663,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-8. As a user, I want to see the score at the end of the game.
+### 8. As a user, I want to see the score at the end of the game.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -677,7 +677,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-9. As a user, I want it to be clear if I won or lost.
+### 9. As a user, I want it to be clear if I won or lost.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -693,7 +693,7 @@ The following browsers were tested for compatibility; all browsers were fully co
 </details>
 </br>
 
-10. As a user, I want to be able to contact the site maker.
+### 10. As a user, I want to be able to contact the site maker.
 
 |Feature|Action(s) Taken|Expected Result|Actual Result|
 |---|---|---|---|
@@ -709,13 +709,24 @@ The following browsers were tested for compatibility; all browsers were fully co
 
 ## Deployment
 
-- This site was deployed to GitHub pages. The steps to deploy are as follows:
+The website was deployed to GitHub Pages via the following:
+1. From Github repository select settings
+2. Select pages from the left menu
+3. Select the master branch
+4. When the page refreshes you will see a message to notify you the site is now published
 
-- Navigate to the settings tab of the GitHub repository that you wish to deploy.
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
 
--   From the source drop down menu, select the option that says main
-
-- Once selected, the page link will generate, allowing you to view your page.
+You can clone the repository by following these steps:
+1. Go to the GitHub repository
+2. Locate the Code button above the list of files and click it
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
+7. Press Enter to create your local clone.
 
 ## Credits
 

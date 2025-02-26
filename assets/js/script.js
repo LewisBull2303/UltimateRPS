@@ -34,6 +34,8 @@ const backButton = document.getElementById("backButton");
 
 const startGameElements = document.querySelectorAll(".start-game-element"); // Start game elements
 
+const newGameButton = document.getElementById("newGame")// Button for starting a new game
+
 const selectElement = document.getElementById("rounds"); // Dropdown for selecting the round
 const roundInstructions = document.getElementById("roundInstructions");
 const submitDropDown = document.getElementById("submit"); // Submit button
@@ -361,6 +363,7 @@ backButton.addEventListener("click", () => {
     roundsOutput.textContent = `${remainingRounds}`;
     selectElement.classList.add("hide-element");
     submitDropDown.textContent = "Continue?";
+    newGameButton.classList.remove("hide-element")
     submitDropDown.style.fontSize = "22px";
     selectElement.value = remainingRounds;
     roundsOutput.textContent = `${remainingRounds} Rounds Left`;
@@ -370,6 +373,19 @@ backButton.addEventListener("click", () => {
   }
 });
 
+newGameButton.addEventListener("click", () => {
+  homePage()
+  playerDisplay.textContent = `PLAYER: `;
+  computerDisplay.textContent = `COMPUTER `;
+  resultDisplay.classList.add("hide-element");
+  resultDisplay.textContent = '';
+
+  playerScore = 0;
+  playerScoreDisplay.textContent = playerScore;
+  computerScore = 0;
+  computerScoreDisplay.textContent = computerScore;
+})
+
 // Home page setup
 function homePage() {
   // All elements on the home page, so unhide them
@@ -378,8 +394,8 @@ function homePage() {
   roundsSelect.classList.remove("hide-element");
   backButton.classList.remove("hide-element");
   submitDropDown.classList.remove("hide-element");
-  roundInstructions.textContent =
-    "Please select the number of rounds you would like to play: ";
+  newGameButton.classList.add("hide-element");
+  roundInstructions.textContent = "Please select the number of rounds you would like to play: ";
   submitDropDown.textContent = "Submit";
   submitDropDown.style.fontSize = "12px";
 
@@ -420,5 +436,6 @@ function gamePage() {
   optionsButton.classList.add("hide-element");
   selectElement.classList.add("hide-element");
   submitDropDown.classList.add("hide-element");
+  newGameButton.classList.add("hide-element");
   roundsSelect.classList.add("hide-element");
 }

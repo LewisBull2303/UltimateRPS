@@ -191,6 +191,11 @@ i{
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+#newGame{
+    font-size: 22px;
+    gap: 10px;
+}
+
 .btn:hover{
     /* Hover effect for buttons */
     transform: translateY(-3px);

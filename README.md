@@ -371,7 +371,7 @@ My wireframe concept was a single page, which would have everything that the use
 
   - This button is fully functional and responsive; it works across all screen sizes. This button is located on the Main Game Page.
 
-  - User Stories Answered: 3, 4, 5, 6, 11, 12, 13, 
+  - User Stories Answered: 3, 4, 6, 11, 12, 13, 
 
 <details>
  <summary>Images</summary>
@@ -554,6 +554,15 @@ The following browsers were tested for compatibility; all browsers were fully co
 |Home page Button|Made the home page button centered so It will look good on all screen sizes|The button will look good and correct on all screens|All working as expected|
 |Continue Button|The continue button has styles so its centered and will look good on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
 |New Game Button|The new game button has the same styles as the continue button and will look correct on all screen sizes|The button will go to a column flex-direction and shrink properly on smaller screen sizes|All working as intended|
+
+5. As a user, I want to have the game be fun.
+
+|Feature|Action(s) Taken|Expected Result|Actual Result|
+|---|---|---|---|
+|Game Buttons|The game buttons has many options and make the game more fun|Mutliple game buttons will make the game more enjoyable|It does make the game more fun, I have asked 3 other people and they agree|
+|Player and Computer Score|The score will increase to make the game more enjoyable|The score changing makes the game more fun and competitive|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
+|Continue Button|I created a continue button to allow the player to keep playing which is more fun|The continue button will allow the player to continue where they left off and keep playing which is more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
+|New Game Button|I created a new game button to allow the player to start a new game if the game they are playing is not fun|The new game button allows the user to start again making the game more fun|It does make the game more fun, Once again I asked the same 3 people and they agree with this opinion|
 
 ## Deployment
 
